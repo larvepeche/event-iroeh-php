@@ -13,7 +13,10 @@
             </ul>
             <div class="right d-flex py-4">
                 <div class="d-flex flex-column date desktop py-0">
-                    <span>21 Février 2022</span>
+                    <span><?php
+                        setlocale(LC_TIME,"fr_FR");
+                        echo strftime("%d %B %Y");
+                    ?></span>
                     <span class="lancement">Disponible le 19 Mars 2022 </span>
                     <!-- (10-12) -> 09 Avril -->
                 </div>
