@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Proxima Nova regular";
+  src: url("../fonts/proxima/ProximaNova-Regular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova bold";
+  src: url("../fonts/proxima/Proxima Nova Bold.otf");
+}
+
+@font-face {
+  font-family: "bebas";
+  src: url("../fonts/bebas/BebasNeue-Regular.ttf");
+}
+
+body {
+  background: #eef7f9;
+  font-family: "Proxima Nova regular", sans-serif;
+  overflow-x: hidden;
+}
+
+body #toTop {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 999;
+  color: #007A9C;
+  text-decoration: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+strong {
+  font-family: "Proxima Nova bold";
+}
+
+.ctitle {
+  font-family: "bebas";
+}
+
+.px7 {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+@media (max-width: 992px) {
+  .px7 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+.px5 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+strong {
+  font-family: "Proxima Nova bold", sans-serif;
+}
+
+p {
+  font-family: "Proxima Nova regular";
+  font-size: 1.05em;
+}
+
+@media (max-width: 992px) {
+  p {
+    font-size: 0.9em;
+  }
+}
+
+.cbtn {
+  background-color: #007A9C;
+  color: white;
+  text-decoration: none;
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: 0;
+}
+
+.cbtn:focus {
+  border: 3px solid #FCAE2C !important;
+}
+
+a.cbtn:hover {
+  color: white;
+}
+
+footer {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+footer .box {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  width: 100%;
+  border-radius: 8px;
+  margin: 0 auto 0 auto;
+}
+
+footer .box:hover {
+  box-shadow: 0 4px 35px rgba(0, 0, 0, 0.4);
+}
+
+footer .box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../image/pattern-black.png");
+  background-position: center;
+  background-repeat: repeat-y;
+  opacity: 0.03;
+}
+
+@media (max-width: 992px) {
+  footer .box::before {
+    background-image: url("../image/pattern-black-r@2x.png");
+    opacity: 0.03;
+  }
+}
+
+@media (max-width: 515px) {
+  footer .box {
+    justify-content: center;
+    text-align: center;
+  }
+  footer .box div:first-child {
+    margin-bottom: 2em;
+  }
+}
+
+footer .box div {
+  width: auto;
+}
+
+footer .box p {
+  font-size: 16px;
+  line-height: 10px;
+}
+
+footer .box p.ctitle {
+  font-size: 18px;
+}
+/*# sourceMappingURL=footer.css.map */

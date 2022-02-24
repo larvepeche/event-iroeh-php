@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Proxima Nova regular";
+    src: url("../fonts/proxima/ProximaNova-Regular.otf");
+}
+
+@font-face {
+    font-family: "Proxima Nova bold";
+    src: url("../fonts/proxima/Proxima\ Nova\ Bold.otf");
+}
+
+@font-face {
+    font-family: "bebas";
+    src: url("../fonts/bebas/BebasNeue-Regular.ttf");
+}
+
+$firstBreakpoint: 992px;
+$secondBreakpoint: 515px;
+
+
+$navbar-height : 100px;
+$proxima : "Proxima Nova regular";
+$strongFont: "Proxima Nova bold";
+$title: "bebas";
+$paragraph: "Proxima Nova regular";
+$primarycolor : #007A9C;
+$firstBreakpoint: 992px;
+$largeBreakpoint: 1200px;
+$main-text-color : #0A0A0A;
+$color-primary:#007A9C;
+$color-secondary:#FCAE2C;
+
+body {
+    background: #eef7f9;
+    font-family: $proxima, sans-serif;
+    overflow-x: hidden;
+    #toTop {
+        display: none;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+        color: $primarycolor;
+        text-decoration: none;
+        font-size: 2em;
+        cursor: pointer;
+    }
+}
+strong{
+    font-family: $strongFont;
+}
+.ctitle{
+    font-family:$title;
+}
+.px7 {
+    padding-left: 7%;
+    padding-right: 7%;
+
+    @media (max-width: $firstBreakpoint) {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+.px5 {
+    padding-left: 5%;
+    padding-right: 5%;
+
+    @media (max-width: $firstBreakpoint) {
+        // padding-left: 3%;
+        // padding-right: 3%;
+    }
+}
+
+strong {
+    font-family: $strongFont, sans-serif;
+}
+
+p {
+    font-family: $paragraph;
+    font-size: 1.05em;
+
+    @media (max-width: $firstBreakpoint) {
+        font-size: 0.9em;
+    }
+}
+
+.cbtn {
+    background-color: $primarycolor;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 0;
+
+    &:focus {
+        border: 3px solid $color-secondary !important;
+    }
+}
+
+a.cbtn:hover {
+    color: white;
+}

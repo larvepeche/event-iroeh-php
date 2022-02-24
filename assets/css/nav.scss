@@ -1,0 +1,101 @@
+@import "variables";
+
+.navbar {
+
+    background: none;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: $proxima, sans-serif;
+    // border: 1px solid black;
+    font-family: $strongFont;
+
+    &>.container-fluid {}
+
+    .navbar-brand {
+
+        // margin-right: 30px;
+        img {
+            max-width: 90px;
+        }
+    }
+
+    .nav-link {
+        color: $main-text-color;
+        margin-right: 20px;
+        // display: none;
+    }
+
+    .navbar-toggler {
+        font-size: 2em;
+        border: none;
+        color: white;
+    }
+
+    .right {
+        align-items: center;
+
+        .date {
+            padding-top: 5px;
+            margin-right: 30px;
+
+            .lancement {
+                font-size: 15px;
+                font-family: $proxima;
+            }
+        }
+
+        .register {
+
+            // display: none;
+        }
+    }
+
+    @media (max-width: $firstBreakpoint) {
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .navbar-brand {
+            img {
+                width: 80px;
+            }
+        }
+
+        .show,
+        .collapsing {
+            transition: height 0.5s;
+            margin-top: 5px;
+            // background: black;
+            color: white;
+            padding-left: 30px;
+            // padding-bottom : 20px;
+            border-radius: 20px 0 20px 20px;
+            border: 4px #efefef5e solid;
+        }
+
+        .right {
+            display: block !important;
+
+            .date {
+                // margin-bottom: 30px;
+                margin-right: 0px;
+                display: none;
+            }
+
+            .register {
+                margin-left: 0;
+                padding: 0;
+                height: 45px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: max-content;
+                padding: 20px;
+                margin-top: 10px;
+                position: relative;
+                left: -5px;
+            }
+        }
+    }
+}

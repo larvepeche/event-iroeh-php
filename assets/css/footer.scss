@@ -1,0 +1,53 @@
+@import "variables";
+footer{
+    padding-left : 5%;
+    padding-right : 5%;
+    .box{
+        position : relative;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        transition : box-shadow 0.5s;
+        &:hover{
+            box-shadow: 0 4px 35px rgba(0, 0, 0, 0.4);
+        }
+        width:100%;
+        border-radius: 8px;
+        margin: 0 auto 0 auto;
+        &::before{
+            content : '';
+            position: absolute;
+            top : 0;
+            left : 0;
+            right : 0;
+            bottom : 0;
+            background-image: url("../image/pattern-black.png");
+            background-position: center;
+            background-repeat: repeat-y;
+            opacity: 0.03;
+            @media(max-width:$firstBreakpoint){
+                background-image: url("../image/pattern-black-r@2x.png");
+                opacity: 0.03;
+
+            }
+        }
+        @media(max-width:$secondBreakpoint){
+            justify-content: center;
+            text-align: center;
+            div:first-child{
+                margin-bottom:2em;
+            }
+        }
+        div{
+            width:auto;
+        }
+        p{
+            font-size: 16px;
+            line-height: 10px;
+            &.ctitle{
+                font-size: 18px;
+            }
+        }
+    }
+}

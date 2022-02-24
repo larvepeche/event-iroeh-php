@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Proxima Nova regular";
+  src: url("../fonts/proxima/ProximaNova-Regular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova bold";
+  src: url("../fonts/proxima/Proxima Nova Bold.otf");
+}
+
+@font-face {
+  font-family: "bebas";
+  src: url("../fonts/bebas/BebasNeue-Regular.ttf");
+}
+
+body {
+  background: #eef7f9;
+  font-family: "Proxima Nova regular", sans-serif;
+  overflow-x: hidden;
+}
+
+body #toTop {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 999;
+  color: #007A9C;
+  text-decoration: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+strong {
+  font-family: "Proxima Nova bold";
+}
+
+.ctitle {
+  font-family: "bebas";
+}
+
+.px7 {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+@media (max-width: 992px) {
+  .px7 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+.px5 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+strong {
+  font-family: "Proxima Nova bold", sans-serif;
+}
+
+p {
+  font-family: "Proxima Nova regular";
+  font-size: 1.05em;
+}
+
+@media (max-width: 992px) {
+  p {
+    font-size: 0.9em;
+  }
+}
+
+.cbtn {
+  background-color: #007A9C;
+  color: white;
+  text-decoration: none;
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: 0;
+}
+
+.cbtn:focus {
+  border: 3px solid #FCAE2C !important;
+}
+
+a.cbtn:hover {
+  color: white;
+}
+
+.header {
+  background-color: #0b0b0b36;
+  height: 100vh;
+  color: white;
+  background: #161616 url("../image/conference-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position-y: 70px;
+  background-repeat: repeat-y;
+}
+
+.header .row {
+  flex: 1 1 0;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.header .row .jumbotron {
+  padding-bottom: 50px;
+  font-size: 22px;
+}
+
+.header .row .jumbotron p:nth-child(2) {
+  margin-bottom: 1.5rem;
+}
+
+.header .row .jumbotron .big-text {
+  font-family: "bebas";
+  font-size: 60px;
+  text-transform: uppercase;
+  font-size: 90px;
+  line-height: 1em;
+}
+
+.header .row .jumbotron .big-text span:last-of-type {
+  color: #FCAE2C;
+}
+
+@media (max-width: 992px) {
+  .header .row .jumbotron .big-text {
+    font-size: 60px;
+  }
+}
+
+.header .row .jumbotron button {
+  width: max-content;
+  padding: 20px 40px;
+}
+
+.header .participe {
+  transition: all 0.25s;
+  box-sizing: border-box;
+  width: max-content;
+  padding: 15px 40px;
+  border-radius: 0 39px 0 39px;
+  font-family: "Proxima Nova bold";
+  text-transform: capitalize;
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+}
+
+.header .participe:hover {
+  background: none;
+  color: white;
+}
+/*# sourceMappingURL=jumbotron.css.map */

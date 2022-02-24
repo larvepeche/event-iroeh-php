@@ -1,0 +1,29 @@
+@import "variables";
+
+.result {
+    font-size: 18px;
+    .row{
+        background-color: rgba(0, 0, 0, 0.8);
+        color : white;
+        h3{
+            font-size : 50px;
+            font-family: $title;
+            color : white;
+            background: $primarycolor ;
+            width: max-content;
+            padding:10px 30px;;
+            position:relative;
+            border-radius: 39px 0 39px 0;
+            margin-bottom : 20px;
+            @media(min-width:$secondBreakpoint){
+                left:-15px;
+            }
+        }
+        .image{
+            min-height:300px;
+           background-image: url("../image/result.jpg");
+           background-size: cover;
+           background-position: center;
+        }
+    }
+}
