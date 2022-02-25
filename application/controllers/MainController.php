@@ -52,11 +52,17 @@ class MainController extends CI_Controller
 
     public function addEventMember()
     {
-        $this->form_validation->set_rules('firstName', 'prénom', 'required', 'test');
-        $this->form_validation->set_rules('lastName', 'nom', 'required');
-        $this->form_validation->set_rules('email', 'email', 'required');
-        $this->form_validation->set_rules('age', 'age', '');
-        $this->form_validation->set_rules('phone', 'telephone');
+        $age = [10, 90];
+        $this->form_validation->set_rules('firstName', 'prénom', 'required', array('required' => 'Veuillez saisir votre prénom'));
+        $this->form_validation->set_rules('lastName', 'nom', 'required', array('required' => 'Veuillez saisir votre nom'));
+        $this->form_validation->set_rules('email', 'email', 'required|callback_check_email', array('required' => 'Veuillez saisir votre email'));
+        $this->form_validation->set_rules(
+            'age',
+            'age',
+            'required|greater_than[' . $age[0] . ']|less_than[' . $age[1] . ']',
+            array('required' => 'Veuillez saisir votre age', 'greater_than' => 'age invalide', 'less_than' => 'age invalide')
+        );
+        $this->form_validation->set_rules('phone', 'telephone', 'required', array('required' => 'Veuillez saisir votre numéro de téléphone'));
         $this->form_validation->set_rules('gender', 'genre');
         if ($this->form_validation->run() == FALSE) {
             $this->inscription();
@@ -73,6 +79,16 @@ class MainController extends CI_Controller
             $member->insert();
 			$this->session->set_userdata('member',$member);
 			redirect(base_url("inscription/thankyou"));
+        }
+    }
+
+    public function check_email($field_value)
+    {
+        if (!filter_var($field_value, FILTER_VALIDATE_EMAIL)) {
+            $this->form_validation->set_message('check_email', '{field} non valide');
+            return FALSE;
+        } else {
+            return TRUE;
         }
     }
 }

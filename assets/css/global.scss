@@ -1,72 +1,77 @@
 @import "variables";
+
 body {
-    background: #E4E4E4;
-    font-family: $proxima, sans-serif;
-    overflow-x: hidden;
-    #toTop {
-        display: none;
-        position: fixed;
-        bottom: 15px;
-        right: 15px;
-        z-index: 999;
-        color: $primarycolor;
-        text-decoration: none;
-        font-size: 2em;
-        cursor: pointer;
-    }
-}
-strong{
-    font-family: $strongFont;
-}
-.ctitle{
-    font-family:$title;
-}
-.px7 {
-    padding-left: 7%;
-    padding-right: 7%;
+	background: #E4E4E4;
+	font-family: $proxima, sans-serif;
+	overflow-x: hidden;
 
-    @media (max-width: $firstBreakpoint) {
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-}
-
-.px5 {
-    padding-left: 5%;
-    padding-right: 5%;
-
-    @media (max-width: $firstBreakpoint) {
-        // padding-left: 3%;
-        // padding-right: 3%;
-    }
+	#toTop {
+		display: none;
+		position: fixed;
+		bottom: 15px;
+		right: 15px;
+		z-index: 999;
+		color: $primarycolor;
+		text-decoration: none;
+		font-size: 2em;
+		cursor: pointer;
+	}
 }
 
 strong {
-    font-family: $strongFont, sans-serif;
+	font-family: $strongFont;
+}
+
+.ctitle {
+	font-family: $title;
+}
+
+.px7 {
+	padding-left: 7%;
+	padding-right: 7%;
+
+	@media (max-width: $firstBreakpoint) {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}
+
+.px5 {
+	padding-left: 5%;
+	padding-right: 5%;
+
+	@media (max-width: $firstBreakpoint) {
+		// padding-left: 3%;
+		// padding-right: 3%;
+	}
+}
+
+strong {
+	font-family: $strongFont, sans-serif;
 }
 
 p {
-    font-family: $paragraph;
-    font-size: 1.05em;
+	font-family: $paragraph;
+	font-size: 1.05em;
 
-    @media (max-width: $firstBreakpoint) {
-        font-size: 0.9em;
-    }
+	@media (max-width: $firstBreakpoint) {
+		font-size: 0.9em;
+	}
 }
 
 .cbtn {
-    background-color: $color-third;
-    color: white;
-    text-decoration: none;
-    padding: 20px 40px;
-    border-radius: 50px;
-    border: 0;
+	background-color: $color-third;
+	color: white;
+	text-decoration: none;
+	padding: 20px 40px;
+	border-radius: 50px;
+	border: 0;
 
-    &:focus {
-        // border: 3px solid $color-secondary !important;
-    }
+	&:focus {
+		// border: 3px solid $color-secondary !important;
+	}
 }
 
 a.cbtn:hover {
-    color: white;
+	color: white;
 }
