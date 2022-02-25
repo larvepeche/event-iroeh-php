@@ -2,7 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class MainController extends CI_Controller {
-
 	/**
 	 * Index Page for this controller.
 	 *
@@ -18,13 +17,19 @@ class MainController extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	private function getVersion(){
+		// $cssVersion = 1.01;
+		return 1.01;
+	}
 	public function index()
 	{
+		$data['cssVersion'] = $this->getVersion();
 		$this->load->helper('url');
-		$this->load->view('index');
+		$this->load->view('index',$data);
 	}
 	public function inscription(){
+		$data['cssVersion'] = $this->getVersion();
 		$this->load->helper('url');
-		$this->load->view('pages/inscription');
+		$this->load->view('pages/inscription',$data);
 	}
 }

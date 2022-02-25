@@ -15,13 +15,15 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-    <link rel="stylesheet" href="<?= base_url()?>assets/css/common.css">
-    <link rel="stylesheet" href="<?= base_url()?>assets/css/nav.css">
-    <link rel="stylesheet" href="<?= base_url()?>assets/css/jumbotron.css">
-    <link rel="stylesheet" href="<?= base_url()?>assets/css/vocation.css">
-    <link rel="stylesheet" href="<?= base_url()?>assets/css/goal.css">
-    <link rel="stylesheet" href="<?= base_url()?>assets/css/result.css">
-    <link rel="stylesheet" href="<?= base_url()?>assets/css/footer.css">
+    <?php $v = $cssVersion ?>
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/common.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/global.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/nav.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/jumbotron.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/vocation.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/goal.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/result.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/footer.css?v=<?=$v?>">
 
 </head>
 

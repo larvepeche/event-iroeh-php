@@ -37,7 +37,7 @@ form {
     display: inline-flex;
     flex-direction: column;
     width: 100%;
-    padding: 12px 0;
+    padding: 9px 0;
 }
 
 main {
@@ -69,7 +69,6 @@ form, header {
 
 input[type="submit"] {
     box-sizing: border-box;
-    
     display: block;
     width: 100%;
     margin-top: 22px;
@@ -77,8 +76,6 @@ input[type="submit"] {
     padding: 20px 40px;
     border-radius: 8px;
     outline: none;
-    /* background: #007A9C;  */
-    background: black;
     color:white;
     text-align: center;
     text-decoration: none;
@@ -90,15 +87,17 @@ input[type="submit"] {
     font-size: 20px;
     line-height: 20px;
     color: white;
-    border : 3px solid black;
-    -webkit-box-sizing: border-box;
-    -webkit-transition: all 250ms ease;
-    transition: all 250ms ease;
+    border : 0;
+    margin-top:35px;
+
+    /* color */
+    background: rgb(58,89,133);
+    background: linear-gradient(25deg, rgba(58,89,133,1) 0%, rgba(100,135,181,1) 53%, rgba(137,175,224,1) 100%);
 }
 input[type="submit"]:hover {
-    background: transparent;
-    color:black;
-    border : 3px solid black;
+    background: #B2CAEE;
+    color:#3A5985;
+    /* border : 3px solid black; */
 }
 
 .form-field select {
@@ -150,7 +149,8 @@ body {
 
 #left-part {
     display: block;
-    background-color:#FCAE2C;
+    background-color:#3A5985;
+    color:white;
     padding: 30px 0;
     position:relative;
 }
@@ -253,7 +253,10 @@ header .logo {
 
     #right-part h2{
         font-family: "Proxima Nova bold", sans-serif;
-        color : #007A9C;
+        color : #3A5985;
+    }
+    #right-part h4{
+        color : #89AFE0;
     }
     strong{
         font-family: "Proxima Nova bold", sans-serif; 
