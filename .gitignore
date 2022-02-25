@@ -33,3 +33,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 .htaccess
 .well-known
 cgi-bin
+
+application/config/config.php
+application/config/database.php
