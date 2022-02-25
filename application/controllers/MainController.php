@@ -18,6 +18,13 @@ class MainController extends CI_Controller
      * map to /index.php/welcome/<method_name>
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->helper(array('form', 'url'));
+        $this->load->library('form_validation');
+    }
+
     private function getVersion()
     {
         // $cssVersion = 1.01;
@@ -26,30 +33,26 @@ class MainController extends CI_Controller
     public function index()
     {
         $data['cssVersion'] = $this->getVersion();
-        $this->load->helper('url');
         $this->load->view('index', $data);
     }
     public function inscription()
     {
         $data['cssVersion'] = $this->getVersion();
-        $this->load->helper('url');
         $this->load->view('pages/inscription', $data);
     }
 
     public function addEventMember()
     {
-        $this->load->helper(array('form', 'url'));
-        $this->load->library('form_validation');
-        $this->form_validation->set_rules('firstName', 'firstName', 'required');
-        $this->form_validation->set_rules('lastName', 'lastName', 'required');
+        $this->form_validation->set_rules('firstName', 'prénom', 'required', 'test');
+        $this->form_validation->set_rules('lastName', 'nom', 'required');
         $this->form_validation->set_rules('email', 'email', 'required');
-        $data['cssVersion'] = $this->getVersion();
-        $data['state'] = "ok";
+        $this->form_validation->set_rules('age', 'age', '');
+        $this->form_validation->set_rules('phone', 'telephone');
+        $this->form_validation->set_rules('gender', 'genre');
         if ($this->form_validation->run() == FALSE) {
-            $data['state'] = "nope";
-            $this->load->view('pages/inscription', $data);
+            $this->inscription();
         } else {
-            $this->load->view('pages/inscription', $data);
+            $this->inscription();
         }
     }
 }
