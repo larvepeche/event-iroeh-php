@@ -26,7 +26,7 @@
     </div>
     <div id="right-part">
         <main>
-            <form action="<?= base_url(); ?>/participate" method="POST">
+            <form action="<?= base_url(); ?>participate" method="POST">
 
                 <h2>Veuillez vous inscrire <br />pour acceder à l'évènement.</h2>
                 <h4>Proposé par <span><strong>Iroeh</strong></span>.</h4>

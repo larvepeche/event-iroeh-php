@@ -23,6 +23,7 @@ class MainController extends CI_Controller
         parent::__construct();
         $this->load->helper(array('form', 'url'));
         $this->load->library('form_validation');
+        $this->load->model('EventMembers');
     }
 
     private function getVersion()
@@ -52,6 +53,16 @@ class MainController extends CI_Controller
         if ($this->form_validation->run() == FALSE) {
             $this->inscription();
         } else {
+            $member = new EventMembers;
+            $member->set(
+                $this->input->post('firstName'),
+                $this->input->post('lastName'),
+                $this->input->post('email'),
+                $this->input->post('age'),
+                $this->input->post('phone'),
+                $this->input->post('gender')
+            );
+            $member->insert();
             $this->inscription();
         }
     }
