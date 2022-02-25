@@ -55,6 +55,8 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['home'] = 'MainController';
 $route['inscription'] = 'MainController/inscription';
+$route['inscription/form'] = 'MainController/inscription/form';
+$route['inscription/thankyou'] = 'MainController/inscription/thankyou';
 
 
 $route['participate'] = 'MainController/addEventMember';

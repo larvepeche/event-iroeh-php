@@ -18,12 +18,15 @@ class MainController extends CI_Controller
      * map to /index.php/welcome/<method_name>
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
+	public $Inscriptiondata = [];
     public function __construct()
     {
-        parent::__construct();
+		parent::__construct();
         $this->load->helper(array('form', 'url'));
         $this->load->library('form_validation');
         $this->load->model('EventMembers');
+		$this->load->library('session');
+		$this->Inscriptiondata['page'] = null;
     }
 
     private function getVersion()
@@ -36,8 +39,13 @@ class MainController extends CI_Controller
         $data['cssVersion'] = $this->getVersion();
         $this->load->view('index', $data);
     }
-    public function inscription()
+    public function inscription($page = NULL)
     {
+		if(isset($page)){
+			$data['page'] = "pages/inscription-layouts/".$page.".php";
+		}else{
+			$data['page'] = "pages/inscription-layouts/form.php";
+		}
         $data['cssVersion'] = $this->getVersion();
         $this->load->view('pages/inscription', $data);
     }
@@ -63,7 +71,8 @@ class MainController extends CI_Controller
                 $this->input->post('gender')
             );
             $member->insert();
-            $this->inscription();
+			$this->session->set_userdata('member',$member);
+			redirect(base_url("inscription/thankyou"));
         }
     }
 }
