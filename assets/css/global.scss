@@ -55,7 +55,7 @@ p {
 	font-size: 1.05em;
 
 	@media (max-width: $firstBreakpoint) {
-		font-size: 0.9em;
+		// font-size: 0.9em;
 	}
 }
 
@@ -74,4 +74,34 @@ p {
 
 a.cbtn:hover {
 	color: white;
+}
+
+.semi-rounded-btn-left{
+    transition: all 0.25s;
+    box-sizing: border-box;
+    width: max-content;
+    padding: 15px 60px;
+    border-radius: 0 39px 0 39px;
+    font-family: $strongFont;
+    text-transform: capitalize;
+    background-color: white;
+    border : 2px solid white;
+    color: black;
+    font-size: 20px !important;
+    &:hover{
+        background: none;
+        color:white;
+    }
+}
+.semi-rounded-btn-right{
+    @extend .semi-rounded-btn-left;
+    border-radius: 39px 0 39px 0;
+}
+
+.hover-black{
+    &:hover{
+        background: none;
+        color:black;
+        border : 2px solid black;
+    }
 }

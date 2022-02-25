@@ -7,6 +7,7 @@
                 <div class="contact">
                    <p><strong>FABRICE RABESON</strong></p>
                    <p>FOUNDER & OWNER</p>
+                   <p><strong>Certified Coach, Speaker & Trainer</strong></p>
                    <br/>
                    <p class="ctitle">+261 32 88 998 88</p>
                    <p class="mb-0 ctitle">contact@iroeh.com</p>

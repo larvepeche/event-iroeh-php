@@ -31,8 +31,8 @@ class MainController extends CI_Controller
 
     private function getVersion()
     {
-        // $cssVersion = 1.01;
-        return 1.01;
+        // $cssVersion = 1.2;
+        return 1.2;
     }
     public function index()
     {

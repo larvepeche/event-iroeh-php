@@ -87,6 +87,7 @@
                     et
                     voyez votre <strong>succès</strong> personnel et professionnel atteindre des sommets.
                 </p>
+                <a href="inscription"><button data-aos="fade-down" data-aos-delay="150" class="cbtn semi-rounded-btn-left hover-black">Je Participe !</button></a>
             </div>
         </div>
         </section>

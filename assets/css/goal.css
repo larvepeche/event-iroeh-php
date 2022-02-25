@@ -31,7 +31,7 @@
 }
 
 .goal-section .goal-list .goal-item {
-  padding: 60px;
+  padding: 35px 60px;
   display: flex;
   align-items: center;
   border-radius: 8px;
@@ -91,5 +91,9 @@
     background-position: top;
     background-repeat: repeat-y;
   }
+}
+
+.goal-section p {
+  font-size: 1.2em;
 }
 /*# sourceMappingURL=goal.css.map */
