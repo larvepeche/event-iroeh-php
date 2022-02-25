@@ -4,29 +4,31 @@
                 <h4>Proposé par <span><strong>Iroeh</strong></span>.</h4>
                 <div class="form-field-group">
                     <div class="form-field">
-                        <label for="firstName">Prénom</label>
-                        <input id="firstName" type="text" name="firstName" value="<?php echo set_value('firstName'); ?>">
-                        <?php echo form_error('firstName'); ?>
+                        <label for="firstName">Prénom *</label>
+                        <input required="required" id="firstName" type="text" name="firstName" value="<?php echo set_value('firstName'); ?>">
+                        <span class="text-danger"><?php echo form_error('firstName'); ?></span>
                     </div>
                     <div class="form-field">
-                        <label for="lastName">Nom</label>
-                        <input id="lastName" type="text" name="lastName" value="<?php echo set_value('lastName'); ?>">
-                        <?php echo form_error('lastName'); ?>
+                        <label for="lastName">Nom *</label>
+                        <input required="required" id="lastName" type="text" name="lastName" value="<?php echo set_value('lastName'); ?>">
+                        <span class="text-danger"><?php echo form_error('lastName'); ?></span>
                     </div>
                 </div>
                 <div class="form-field">
-                    <label for="email">Email</label>
-                    <input id="email" type="email" name="email" value="<?php echo set_value('email'); ?>">
-                    <?php echo form_error('email'); ?>
+                    <label for="email">Email *</label>
+                    <input required="required" id="email" type="email" name="email" value="<?php echo set_value('email'); ?>">
+                    <span class="text-danger"><?php echo form_error('email'); ?></span>
                 </div>
                 <div class="form-field-group">
                     <div class="form-field">
-                        <label for="age">Age</label>
-                        <input id="phone" type="number" min="4" name="age" value="<?php echo set_value('age'); ?>">
+                        <label for="age">Age *</label>
+                        <input required="required" id="age" type="number" name="age" value="<?php echo set_value('age'); ?>">
+                        <span class="text-danger"><?php echo form_error('age'); ?></span>
                     </div>
                     <div class="form-field">
                         <label for="phone">Téléphone</label>
-                        <input id="lasttName" type="text" name="phone" placeholder="Ex : 032 89 899 98" value="<?php echo set_value('phone'); ?>">
+                        <input id="phone" type="text" name="phone" placeholder="Ex : 032 89 899 98" value="<?php echo set_value('phone'); ?>">
+                        <span class="text-danger"><?php echo form_error('phone'); ?></span>
                     </div>
                 </div>
                 <div class="form-field">

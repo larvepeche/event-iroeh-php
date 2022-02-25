@@ -7,5 +7,6 @@
    <?php }
     else{ ?>
         <h2>pas encore inscris</h2>
+        
     <?php } ?>
 </section>
