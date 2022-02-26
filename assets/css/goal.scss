@@ -1,83 +1,86 @@
 @import './variables';
+
 .goal-section {
-    gap: 20px;
-    margin: 0;
+	margin: 0;
 
-    .goal-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 1fr;
-        gap: 20px;
-        color: white;
-        font-size: 1.2rem;
+	.goal-list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: 1fr;
+		gap: 20px;
+		color: white;
+		font-size: 1.2rem;
 
-        .goal-item {
-            padding: 35px 60px;
-            display: flex;
-            align-items: center;
-            border-radius: 8px;
+		.goal-item {
+			padding: 35px 60px;
+			display: flex;
+			align-items: center;
+			border-radius: 8px;
 
-            span {
-                transition: all 0.25s;
-            }
+			span {
+				transition: all 0.25s;
+			}
 
-            &:hover {
-                span {
-                    transform: scale(1.1);
-                }
-            }
-        }
+			&:hover {
+				span {
+					transform: scale(1.1);
+				}
+			}
+		}
 
-        .goal-item:nth-of-type(1) {
-            background-color: #1D3557;
-        }
+		.goal-item:nth-of-type(1) {
+			background-color: #1D3557;
+		}
 
-        .goal-item:nth-of-type(2) {
-            background-color: #E63946;
-        }
+		.goal-item:nth-of-type(2) {
+			background-color: #E63946;
+		}
 
-        .goal-item:nth-of-type(3) {
-            background-color: #6D6875;
-        }
+		.goal-item:nth-of-type(3) {
+			background-color: #6D6875;
+		}
 
-        .goal-item:nth-of-type(4) {
-            background-color: #BC6C25;
-        }
+		.goal-item:nth-of-type(4) {
+			background-color: #BC6C25;
+		}
 
-        .goal-item:nth-of-type(5) {
-            background-color: #8D99AE;
-        }
-    }
+		.goal-item:nth-of-type(5) {
+			background-color: #8D99AE;
+		}
+	}
 
-    .goal-title {
-        font-size :60px;
-        font-family: $title;
-    }
+	.goal-title {
+		font-size: 60px;
+		font-family: $title;
+	}
 
-    @media (max-width: $firstBreakpoint) {
-        .goal-list {
-            grid-template-columns: 1fr;
+	@media (max-width: $firstBreakpoint) {
+		.goal-list {
+			grid-template-columns: 1fr;
 
-            .goal-item {
-                padding: 46px;
-            }
-        }
-    }
+			.goal-item {
+				padding: 46px;
+			}
+		}
+	}
 
-    @media (max-width: $largeBreakpoint) {
-        // flex-wrap: ;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    
-    background-image: url("../image/pattern-r-2.png");
-    background-position:right bottom;
-    background-repeat: repeat-y;
-    @media(max-width:$secondBreakpoint){
-        background-position:top;
-        background-repeat: repeat-y;
-    }
-    p{
-        font-size : 1.2em;
-    }
+	@media (max-width: $largeBreakpoint) {
+		// flex-wrap: ;
+		flex-direction: column-reverse;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	background-image: url("../image/pattern-r-2.png");
+	background-position:right bottom;
+	background-repeat: repeat-y;
+
+	@media(max-width:$secondBreakpoint) {
+		background-position: top;
+		background-repeat: repeat-y;
+	}
+
+	p {
+		font-size: 1.2em;
+	}
 }
