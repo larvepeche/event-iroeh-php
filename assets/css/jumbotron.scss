@@ -15,12 +15,7 @@
         max-width: 100%;
 
         .jumbotron {
-            padding-bottom: 50px;
             font-size: 22px;
-
-            p {
-                // margin-bottom: 0;
-            }
 
             p:nth-child(2) {
                 margin-bottom: 1.5rem;
@@ -41,29 +36,18 @@
                     font-size: 60px;
                 }
             }
-
-            button {
-                width: max-content;
-                padding: 20px 60px;
-
+            @media(min-width : $firstBreakpoint){
+                padding-bottom: 50px;
             }
         }
     }
 
     .participe {
-        transition: all 0.25s;
-        box-sizing: border-box;
-        width: max-content;
-        padding: 15px 40px;
-        border-radius: 0 39px 0 39px;
+        padding: 15px 9vw !important;
         font-family: $strongFont;
         text-transform: capitalize;
-        background-color: white;
-        border : 2px solid white;
-        color: black;
-        &:hover{
-            background: none;
-            color:white;
+        @media(max-width : $secondBreakpoint){
+            width:100% !important;
         }
     }
 }

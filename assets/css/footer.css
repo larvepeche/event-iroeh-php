@@ -76,4 +76,10 @@ footer .box p {
 footer .box p.ctitle {
   font-size: 18px;
 }
+
+@media (max-width: 515px) {
+  footer .box p {
+    line-height: 20px;
+  }
+}
 /*# sourceMappingURL=footer.css.map */

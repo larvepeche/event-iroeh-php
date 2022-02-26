@@ -48,6 +48,9 @@ footer{
             &.ctitle{
                 font-size: 18px;
             }
+            @media(max-width : $secondBreakpoint){
+                line-height: 20px;
+            }
         }
     }
 }

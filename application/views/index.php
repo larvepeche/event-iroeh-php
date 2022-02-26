@@ -41,7 +41,7 @@
                 </h1>
                 <p data-aos="fade-down" data-aos-delay="150">Comment impacter positivement <br />les vies de ceux autour
                     de nous?</p>
-                <a href="inscription"><button data-aos="fade-down" data-aos-delay="150" class="cbtn participe">Participer</button></a>
+                <a href="inscription"><button data-aos="fade-down" data-aos-delay="150" class="cbtn fill semi-rounded-left b-white participe">Participer</button></a>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@
                     et
                     voyez votre <strong>succès</strong> personnel et professionnel atteindre des sommets.
                 </p>
-                <a href="inscription"><button data-aos="fade-down" data-aos-delay="150" class="cbtn semi-rounded-btn-left hover-black">Je Participe !</button></a>
+                <a href="inscription"><button data-aos="fade-down" data-aos-delay="150" class="cbtn fill semi-rounded-left b-white hover-black">Je Participe !</button></a>
             </div>
         </div>
         </section>

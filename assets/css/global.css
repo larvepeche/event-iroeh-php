@@ -72,38 +72,45 @@ p {
   padding: 20px 40px;
   border-radius: 50px;
   border: 0;
-}
-
-a.cbtn:hover {
-  color: white;
-}
-
-.semi-rounded-btn-left, .semi-rounded-btn-right {
   transition: all 0.25s;
+}
+
+.cbtn.fill {
   box-sizing: border-box;
   width: max-content;
   padding: 15px 60px;
-  border-radius: 0 39px 0 39px;
   font-family: "Proxima Nova bold";
   text-transform: capitalize;
+  font-size: 20px !important;
+}
+
+.cbtn.semi-rounded-left {
+  border-radius: 0px 39px 0px 39px;
+}
+
+.cbtn.semi-rounded-right {
+  border-radius: 39px 0 39px 0;
+}
+
+.cbtn.b-white {
   background-color: white;
   border: 2px solid white;
   color: black;
   font-size: 20px !important;
 }
 
-.semi-rounded-btn-left:hover, .semi-rounded-btn-right:hover {
-  background: none;
+.cbtn.b-white:hover {
+  background-color: transparent;
   color: white;
 }
 
-.semi-rounded-btn-right {
-  border-radius: 39px 0 39px 0;
-}
-
-.hover-black:hover {
+.cbtn.hover-black:hover {
   background: none;
   color: black;
   border: 2px solid black;
+}
+
+a.cbtn:hover {
+  color: white;
 }
 /*# sourceMappingURL=global.css.map */

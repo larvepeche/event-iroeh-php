@@ -30,7 +30,6 @@
 }
 
 .header .row .jumbotron {
-  padding-bottom: 50px;
   font-size: 22px;
 }
 
@@ -56,26 +55,21 @@
   }
 }
 
-.header .row .jumbotron button {
-  width: max-content;
-  padding: 20px 60px;
+@media (min-width: 992px) {
+  .header .row .jumbotron {
+    padding-bottom: 50px;
+  }
 }
 
 .header .participe {
-  transition: all 0.25s;
-  box-sizing: border-box;
-  width: max-content;
-  padding: 15px 40px;
-  border-radius: 0 39px 0 39px;
+  padding: 15px 9vw !important;
   font-family: "Proxima Nova bold";
   text-transform: capitalize;
-  background-color: white;
-  border: 2px solid white;
-  color: black;
 }
 
-.header .participe:hover {
-  background: none;
-  color: white;
+@media (max-width: 515px) {
+  .header .participe {
+    width: 100% !important;
+  }
 }
 /*# sourceMappingURL=jumbotron.css.map */
