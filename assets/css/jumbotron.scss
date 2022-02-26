@@ -19,6 +19,16 @@
 
             p:nth-child(2) {
                 margin-bottom: 1.5rem;
+                @media(max-width:$firstBreakpoint){
+                    margin-bottom: 0rem;
+                }
+            }
+            p:nth-child(3) {
+                font-size : 18px;
+                margin-bottom: 1.5rem;
+                @media(min-width:$firstBreakpoint){
+                    display:none
+                }
             }
 
             .big-text {
