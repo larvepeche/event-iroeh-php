@@ -9,8 +9,15 @@
                    <p>FOUNDER & OWNER</p>
                    <p><strong>Certified Coach, Speaker & Trainer</strong></p>
                    <br/>
-                   <p class="ctitle">+261 32 88 998 88</p>
-                   <p class="mb-0 ctitle">contact@iroeh.com</p>
+                   <a href="tel:0327970818"><p class="ctitle">+261 32 88 998 88</p></a>
+                   <a href="mailto:san@antonio.net"><p class="mb-0 ctitle">contact@iroeh.com</p></a>
+                   <br/>
+                   <span class="ctitle">Suivre</span>
+                    <div class="social-media">
+                        <a target="_blank" href="https://www.facebook.com/leadership.iroeh"><i class="bi bi-facebook"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/iro-eh/"><i class="bi bi-linkedin"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCAWNYUIt_YQmLEMImI9vkQg"><i class="bi bi-youtube"></i></a>
+                    </div>
                 </div>
             </div>
             <center><p class="mb-0 py-4 ctitle">COPYRIGHT © 2022, DESIGNED BY IROEH. All Rights reserved</p></center>

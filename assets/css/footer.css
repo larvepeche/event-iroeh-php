@@ -49,8 +49,8 @@ footer .box::before {
 
 @media (max-width: 992px) {
   footer .box::before {
-    background-image: url("../image/pattern-black-r@2x.png");
-    opacity: 0.03;
+    background-image: url("../image/pattern-r-2.png");
+    opacity: 0.4;
   }
 }
 
@@ -80,6 +80,64 @@ footer .box p.ctitle {
 @media (max-width: 515px) {
   footer .box p {
     line-height: 20px;
+  }
+}
+
+footer .contact {
+  z-index: 99;
+}
+
+footer .contact .ctitle {
+  font-size: 1.3em;
+}
+
+footer .contact a {
+  text-decoration: none !important;
+  color: currentColor !important;
+}
+
+footer .contact .social-media {
+  padding-top: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+footer .contact .social-media a {
+  display: flex;
+  text-decoration: none;
+  width: 50px;
+  height: 40px;
+}
+
+footer .contact .social-media i {
+  display: flex;
+  font-size: 2em;
+  margin-right: 14px;
+}
+
+footer .contact .social-media i.bi-facebook {
+  color: #3B5898;
+}
+
+footer .contact .social-media i.bi-linkedin {
+  color: #0E76A8;
+}
+
+footer .contact .social-media i.bi-youtube {
+  color: #C4302B;
+  margin-top: 0.01em;
+  font-size: 2.2em;
+}
+
+@media (max-width: 515px) {
+  footer .contact .social-media {
+    justify-content: center;
+  }
+  footer .contact .social-media i {
+    margin: 0 7px;
+  }
+  footer .contact .social-media i.bi-youtube {
+    margin-top: 0.02em;
   }
 }
 /*# sourceMappingURL=footer.css.map */

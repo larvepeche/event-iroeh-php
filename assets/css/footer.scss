@@ -27,8 +27,8 @@ footer{
             background-repeat: repeat-y;
             opacity: 0.03;
             @media(max-width:$firstBreakpoint){
-                background-image: url("../image/pattern-black-r@2x.png");
-                opacity: 0.03;
+                background-image: url("../image/pattern-r-2.png");
+                opacity: 0.4;
 
             }
         }
@@ -53,4 +53,51 @@ footer{
             }
         }
     }
+    .contact{
+        z-index:99;
+        .ctitle{
+            font-size: 1.3em;
+        }
+        a{
+            text-decoration: none !important;
+            color:currentColor !important;
+        }
+        .social-media{
+            padding-top:0.5em;
+            display : flex;
+            align-items: center;
+            a{
+                display: flex;
+               text-decoration: none; 
+               width:50px;
+               height:40px;
+            }
+            i{
+                display:flex;
+                font-size :2em;
+                margin-right: 14px;
+                &.bi-facebook{
+                    color : #3B5898;
+                }
+                &.bi-linkedin{
+                    color : #0E76A8;
+                }
+                &.bi-youtube{
+                    color : #C4302B;
+                    margin-top:0.01em;
+                    font-size: 2.2em;
+                }
+            }
+            @media(max-width:$secondBreakpoint){
+                justify-content: center;
+                i{
+                    margin: 0 7px;
+                    &.bi-youtube{
+                        margin-top:0.02em;
+                    }
+                }
+            }
+        }
+    }
+    
 }
