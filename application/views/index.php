@@ -116,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-container col-lg-4">
+                <div class="content-container col-lg-5 col-xl-4">
                     <div class="separator"></div>
                     <div>
                         <div class="separator"></div>
