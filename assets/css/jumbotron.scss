@@ -60,4 +60,9 @@
             width:100% !important;
         }
     }
+    @media(max-width : $secondBreakpoint){
+        br{
+            display: none;
+        }
+    }
 }

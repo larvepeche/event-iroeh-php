@@ -89,4 +89,10 @@
     width: 100% !important;
   }
 }
+
+@media (max-width: 515px) {
+  .header br {
+    display: none;
+  }
+}
 /*# sourceMappingURL=jumbotron.css.map */

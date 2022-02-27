@@ -68,7 +68,9 @@
 		// flex-wrap: ;
 		flex-direction: column-reverse;
 		align-items: center;
-		margin-bottom: 20px;
+		&>div:nth-child(2){
+			margin-bottom: 20px;
+		}
 	}
 
 	background-image: url("../image/pattern-r-2.png");
@@ -82,5 +84,8 @@
 
 	p {
 		font-size: 1.2em;
+	}
+	.test{
+		box-sizing: border-box;
 	}
 }

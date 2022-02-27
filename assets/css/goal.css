@@ -14,7 +14,6 @@
 }
 
 .goal-section {
-  gap: 20px;
   margin: 0;
   background-image: url("../image/pattern-r-2.png");
   background-position: right bottom;
@@ -84,6 +83,9 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+  .goal-section > div:nth-child(2) {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 515px) {
@@ -95,5 +97,9 @@
 
 .goal-section p {
   font-size: 1.2em;
+}
+
+.goal-section .test {
+  box-sizing: border-box;
 }
 /*# sourceMappingURL=goal.css.map */
