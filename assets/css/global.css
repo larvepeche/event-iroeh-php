@@ -114,4 +114,8 @@ p {
 a.cbtn:hover {
   color: white;
 }
+
+.text-black {
+  color: black !important;
+}
 /*# sourceMappingURL=global.css.map */

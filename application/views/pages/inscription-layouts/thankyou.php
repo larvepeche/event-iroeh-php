@@ -2,10 +2,16 @@
     <?php 
         $member = $this->session->userdata('member');
         if(isset($member)){ ?>
-            <h2>Merci <?=$member->getLastName()." ".$member->getFirstName()?> !</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            <p>votre numéro : DPI<?=$member->getId()?></p>
-            <button class="cbtn hover-black"> Télécharger le PDF </button>
+            <h2>Merci <span class="text-black"><?=$member->getLastName()." ".$member->getFirstName()?></span> <br/>pour votre inscription !</h2>
+            <h3></h3>
+            <p>Validez votre inscription en payant la somme prévue. </p>
+            <p>Tarif : <strong>250.000 MGA</strong>  </p>
+            <p>Paiement par Mvola : <br/>
+                Numéro : XXXXXXX ( Tsihoarana Fabrice )
+                <br/>
+                Motif : DPI<?=$member->getId()?>
+            </p>
+            <p>26 & 27 Mars 2022 | God's love Ambohitrimanjaka</p>
         <?php }
         else{ ?>
             <h2>pas encore inscris</h2>
