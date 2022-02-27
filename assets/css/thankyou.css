@@ -17,7 +17,16 @@ body {
   background: white;
 }
 
+.right-part {
+  position: relative;
+}
+
 .thankyou {
   background: white;
+}
+
+.thankyou center {
+  position: absolute;
+  bottom: 0;
 }
 /*# sourceMappingURL=thankyou.css.map */

@@ -54,19 +54,19 @@
     <main>
         <section class="vocation py-5">
             <div class="container-fluid">
-                <div class="row px7 align-items-center box py-5">
-                    <div class="col-lg-6">
-                        <h3 class="" data-aos="fade-up" data-aos-delay="150">Osez dire oui!</h3>
+                <div class="row p-3 align-items-center box">
+                    <div data-aos="fade-up" data-aos-delay="150" class="px-5 py-4 osez col-lg-8">
+                        <h3 class="">Osez dire oui!</h3>
                         <div class="">
                             <p data-aos="fade-up" data-aos-delay="150">Quelle qu'elle soit votre vocation <br />ou votre
                                 aspiration, vous <strong>pouvez <br />augmenter votre impact</strong> sur les autres
                                 <br /> en devenant une personne d'influence.</p>
                         </div>
                     </div>
-                    <div class="col-6 position-relative " id="animate1">
-                        <!-- <lottie-player class="animation1" src="https://assets7.lottiefiles.com/private_files/lf30_0jm6i5cj.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player> -->
-                        <lottie-player id="plant" src="https://assets2.lottiefiles.com/packages/lf20_eanjkkrb.json"
-                            background="transparent" speed="1" loop autoplay></lottie-player>
+                    <div class="col-lg-4 position-relative " id="promo-container">
+                       <div class="promo">
+                        <p>test</p>
+                       </div>
                     </div>
                 </div>
             </div>

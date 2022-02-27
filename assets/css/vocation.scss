@@ -8,13 +8,23 @@
         color : black;
     }
     .box{
-        margin:0;
-        z-index: 2;
-        background: rgb(175,20,26);
-        background: linear-gradient(343deg, rgba(175,20,26,1) 0%, rgba(212,94,34,1) 48%, rgba(215,100,35,1) 57%, rgba(252,174,44,1) 100%);
-        border-radius: 8px;
-        color : white;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        .osez{
+            margin:0;
+            z-index: 2;
+            background: rgb(175,20,26);
+            background: linear-gradient(352deg, rgba(175,20,26,1) 0%, rgba(212,94,34,1) 48%, rgba(215,100,35,1) 57%, rgba(252,174,44,1) 100%);
+            border-radius: 8px;
+            color : white;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+        #promo-container{
+            padding-left:10px;
+            .promo{
+                height:100%;
+                background: $color-secondary;
+                
+            }
+        }
         p{
             margin : 0;
         }

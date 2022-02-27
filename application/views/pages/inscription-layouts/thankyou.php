@@ -17,3 +17,4 @@
             <h2>pas encore inscris</h2>
     <?php } ?>
 </section>
+<center><p class="mb-0 py-4 ctitle">COPYRIGHT © 2022, DESIGNED BY IROEH. All Rights reserved</p></center>
