@@ -72,13 +72,18 @@ p {
   padding: 20px 40px;
   border-radius: 50px;
   border: 0;
+  -webkit-transition: all 0.25s;
   transition: all 0.25s;
   border: 2px solid #3a5985ee;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .cbtn.fill {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   padding: 15px 60px;
   font-family: "Proxima Nova bold";
