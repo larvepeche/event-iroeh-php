@@ -5,15 +5,31 @@ body{
 .right-part{
     position : relative;
 }
+.cpy{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
 .thankyou{
-
     background: white;
     @media(max-width:$firstBreakpoint){
         // box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
         // border-radius: 10px;
     }
-    center{
+    .ok{
         position : absolute;
-        bottom : 0; 
+        right : 0;
+        top:0;
     }
+    h3{
+        font-family:$strongFont;
+    }
+    .text-blue{
+        color:$color-third;
+        text-transform: capitalize;
+    }
+    .text-muted{
+        font-size : 14px;
+    }
+   
 }
