@@ -1,20 +1,21 @@
 @font-face {
-    font-family: "Proxima Nova regular";
-    src: url("../fonts/proxima/ProximaNova-Regular.otf");
+	font-family: "Proxima Nova regular";
+	src: url("../fonts/proxima/ProximaNova-Regular.otf");
 }
 
 @font-face {
-    font-family: "Proxima Nova bold";
-    src: url("../fonts/proxima/Proxima\ Nova\ Bold.otf");
+	font-family: "Proxima Nova bold";
+	src: url("../fonts/proxima/Proxima\ Nova\ Bold.otf");
 }
 
 @font-face {
-    font-family: "bebas";
-    src: url("../fonts/bebas/BebasNeue-Regular.ttf");
+	font-family: "bebas";
+	src: url("../fonts/bebas/BebasNeue-Regular.ttf");
 }
 
 $firstBreakpoint: 992px;
 $secondBreakpoint: 515px;
+$largeBreakpoint: 1200px;
 
 
 $navbar-height : 100px;
@@ -23,10 +24,7 @@ $strongFont: "Proxima Nova bold";
 $title: "bebas";
 $paragraph: "Proxima Nova regular";
 $primarycolor : #007A9C;
-$firstBreakpoint: 992px;
-$largeBreakpoint: 1200px;
 $main-text-color : #0A0A0A;
 $color-primary:#007A9C;
 $color-secondary:#FCAE2C;
 $color-third:#3a5985ee;
-

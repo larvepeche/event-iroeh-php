@@ -17,17 +17,32 @@
   background-color: #0b0b0b36;
   height: 100vh;
   color: white;
-  background: #161616 url("../image/conference-unsplash.jpg") no-repeat;
-  background-size: cover;
-  background-position-y: 70px;
-  background-position-x: center;
-  background-repeat: repeat-y;
+  background: #161616 url("../image/Fabrice.png") no-repeat;
+  background-position-y: bottom;
+  background-position-x: 80%;
+  background-size: 700px;
+}
+
+.header::before {
+  content: '';
+  background-color: #16161685;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
 
 .header .row {
-  flex: 1 1 0;
-  justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 100%;
+  z-index: 1;
 }
 
 .header .row .jumbotron {
@@ -79,6 +94,66 @@
   }
 }
 
+.header .row .promo-container {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-transform: uppercase;
+  padding: 0;
+  background-color: #00000057;
+}
+
+.header .row .promo-container .promo-txt {
+  border: 4px white solid;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.header .row .promo-container .promo-txt .reduction {
+  font-size: 50px;
+  font-family: "bebas";
+  color: #FCAE2C;
+  letter-spacing: 5px;
+}
+
+.header .row .promo-container .promo-date,
+.header .row .promo-container .promo-price {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: absolute;
+  background-color: #FCAE2C;
+  left: 50%;
+  padding: 10px 15px;
+  color: black;
+}
+
+.header .row .promo-container .promo-date {
+  top: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header .row .promo-container .promo-price {
+  bottom: 0;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+.header .row .promo-container .promo-price :first-child {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
+.header .row .promo-container .promo-price :last-child::before {
+  content: '- ';
+}
+
 .header .participe {
   padding: 15px 9vw !important;
   font-family: "Proxima Nova bold";
@@ -94,6 +169,9 @@
 @media (max-width: 515px) {
   .header br {
     display: none;
+  }
+  .header::before {
+    background-color: #161616bf;
   }
 }
 /*# sourceMappingURL=jumbotron.css.map */

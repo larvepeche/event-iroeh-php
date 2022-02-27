@@ -30,7 +30,8 @@
   background: linear-gradient(343deg, #af141a 0%, #d45e22 48%, #d76423 57%, #fcae2c 100%);
   border-radius: 8px;
   color: white;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .vocation .box p {
@@ -48,7 +49,8 @@
   height: 500px;
   position: absolute;
   bottom: 0;
-  transform: translate(10%, 42%);
+  -webkit-transform: translate(10%, 42%);
+          transform: translate(10%, 42%);
 }
 
 @media (max-width: 992px) {
