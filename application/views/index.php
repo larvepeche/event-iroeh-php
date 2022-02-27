@@ -98,7 +98,7 @@
         </div>
         </section>
         <?php $this->load->view('components/event/seminaire.php'); ?>
-        <?php $this->load->view('components/event/result.php'); ?>
+        <?php $this->load->view('components/event/result.php'); ?>  
         
     </main>
     <?php $this->load->view('layouts/footer.php'); ?>
