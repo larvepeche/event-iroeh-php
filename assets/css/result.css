@@ -18,7 +18,7 @@
 }
 
 .result .row {
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.842);
   color: white;
 }
 
@@ -37,6 +37,12 @@
 @media (min-width: 515px) {
   .result .row h3 {
     left: -15px;
+  }
+}
+
+@media (max-width: 515px) {
+  .result .row h3 {
+    font-size: 8vw;
   }
 }
 

@@ -109,4 +109,13 @@ a.cbtn:hover {
 .text-black{
 	color : black !important
 }
-
+.p1{
+	padding : 1rem;
+}
+.p5{
+	padding : 3rem;
+	@media(max-width : $firstBreakpoint){
+		padding-left : 1rem;
+		padding-right : 1rem;
+	}
+}

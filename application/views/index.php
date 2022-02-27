@@ -14,6 +14,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/e0cd5a3dfc.js" crossorigin="anonymous"></script>
+
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <?php $v = $cssVersion ?>
@@ -23,6 +26,7 @@
     <link rel="stylesheet" href="<?= base_url()?>assets/css/jumbotron.css?v=<?=$v?>">
     <link rel="stylesheet" href="<?= base_url()?>assets/css/vocation.css?v=<?=$v?>">
     <link rel="stylesheet" href="<?= base_url()?>assets/css/goal.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/seminaire.css?v=<?=$v?>">
     <link rel="stylesheet" href="<?= base_url()?>assets/css/result.css?v=<?=$v?>">
     <link rel="stylesheet" href="<?= base_url()?>assets/css/footer.css?v=<?=$v?>">
 
@@ -66,22 +70,6 @@
                     </div>
                 </div>
             </div>
-            <!-- 
-                
-            //inscription avant le x 
-            5 jours 
-            (promo normal e)
-            everywhere
-            Compris dans le pack
-            -kit "d'influence"
-            -hebergement
-            -transport
-            -restauration
-
-            
-
-        
-            -->
         </section>
         <section class="forbg container-fluid pb-5">
             <div class="row goal-section justify-content-center">
@@ -109,23 +97,9 @@
             </div>
         </div>
         </section>
-        <section class="result">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 col-md-7 col-sm-12 py-5 px5">
-                        <h3>Avec l'influence</h3>
-                        <p data-aos="fade-up" data-aos-delay="200">Vous pouvez avoir du succès chez vous, <br />au
-                            travail et dans tous les autres<br /> domaines de votre vie.</p>
-                        <p class="mb-0" data-aos="fade-up" data-aos-delay="200">John C. Maxwell a passé sa vie à
-                            développer des influenceurs. <br/>Avec humour, du cœur, et une sagesse unique, il partage avec
-                            nous ce qu'il a appris pendant des décennies d'expérience dans les domaines du business et
-                            des associations à but non-lucratif.</p>
-                    </div>
-                    <div class="col-lg-6 col-md-5 col-sm-12 image px-0">
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php $this->load->view('components/event/seminaire.php'); ?>
+        <?php $this->load->view('components/event/result.php'); ?>
+        
     </main>
     <?php $this->load->view('layouts/footer.php'); ?>
 </body>
