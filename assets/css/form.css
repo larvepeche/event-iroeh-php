@@ -59,7 +59,7 @@ header{
     }
 }
 
-form, header {
+form, header,section {
     margin: auto;
     max-width: 500px;
     display: block;
@@ -186,7 +186,10 @@ header .logo {
         width: 48%;
     }
 }
-
+#right-part h2{
+    font-family: "Proxima Nova bold", sans-serif;
+    color : #3A5985;
+}
 @media only screen and (min-width: 992px) {
 
     .razoky {

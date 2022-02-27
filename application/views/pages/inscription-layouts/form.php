@@ -27,7 +27,7 @@
                     </div>
                     <div class="form-field">
                         <label for="phone">Téléphone</label>
-                        <input id="phone" type="text" name="phone" placeholder="Ex : 032 89 899 98" value="<?php echo set_value('phone'); ?>">
+                        <input id="phone" type="text" name="phone" placeholder="Ex : +261 34 51 035 40" value="<?php echo set_value('phone'); ?>">
                         <span class="text-danger"><?php echo form_error('phone'); ?></span>
                     </div>
                 </div>

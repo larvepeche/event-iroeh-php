@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/form.css?v=<?= $v ?>">
     <title>Inscription</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/global.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/thankyou.css?v=<?=$v?>">
 </head>
 
 <body>

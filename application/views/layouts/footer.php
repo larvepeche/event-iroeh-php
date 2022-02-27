@@ -9,8 +9,8 @@
                    <p>FOUNDER & OWNER</p>
                    <p><strong>Certified Coach, Speaker & Trainer</strong></p>
                    <br/>
-                   <a href="tel:0327970818"><p class="ctitle">+261 32 88 998 88</p></a>
-                   <a href="mailto:san@antonio.net"><p class="mb-0 ctitle">contact@iroeh.com</p></a>
+                   <a href="tel:0345103540"><p class="ctitle">+261 34 51 035 40</p></a>
+                   <a href="mailto:contact@iroeh.com"><p class="mb-0 ctitle">contact@iroeh.com</p></a>
                    <br/>
                    <span class="ctitle">Suivre</span>
                     <div class="social-media">

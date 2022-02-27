@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Proxima Nova regular";
+  src: url("../fonts/proxima/ProximaNova-Regular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova bold";
+  src: url("../fonts/proxima/Proxima Nova Bold.otf");
+}
+
+@font-face {
+  font-family: "bebas";
+  src: url("../fonts/bebas/BebasNeue-Regular.ttf");
+}
+
+body {
+  background: white;
+}
+
+.thankyou {
+  background: white;
+}
+/*# sourceMappingURL=thankyou.css.map */
