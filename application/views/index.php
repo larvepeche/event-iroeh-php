@@ -62,15 +62,24 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 position-relative " id="promo-container">
-                        <div class="promo">
-                            <p>test</p>
+                    <div class="position-relative promo-container">
+                        <div class="promo card">
+                            <div class="promo-img"></div>
+                            <div class="card-body px-4">
+                                <p class="card-title promo-title">Obtenez une remise de <span>20%</span></p>
+                                <p class="promo-date">Inscrivez-vous avant le <span>05 mars 2022</span></p>
+                                <p class="promo-price">
+                                    <span>250.000 MGA</span>
+                                    <span>200.000 MGA</span>
+                                </p>
+                                <a class="promo-btn btn">s'inscrire</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="forbg container-fluid pb-5">
+        <section class=" forbg container-fluid pb-5">
             <div class="row goal-section justify-content-center">
                 <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 goal-list">
                     <div class="goal-item" data-aos="fade-up" data-aos-delay="150"><span><strong>Les managers</strong> <br /> verront leurs employés répondre avec plus

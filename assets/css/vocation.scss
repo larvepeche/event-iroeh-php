@@ -11,7 +11,15 @@
 	}
 
 	.box {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-row: auto;
+		grid-gap: 10px;
+		gap: 10px;
+
 		.osez {
+			width: 100%;
+			grid-column: 1 / 5;
 			margin: 0;
 			z-index: 2;
 			background: rgb(175, 20, 26);
@@ -19,16 +27,6 @@
 			border-radius: 8px;
 			color: white;
 			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-		}
-
-		#promo-container {
-			padding-left: 10px;
-
-			.promo {
-				height: 100%;
-				background: $color-secondary;
-
-			}
 		}
 
 		p {
@@ -51,6 +49,136 @@
 
 				@media(max-width : $firstBreakpoint) {
 					display: none;
+				}
+			}
+		}
+	}
+
+	.promo-container {
+		width: 100%;
+		height: 100%;
+		grid-column: 5/7;
+		padding: 0;
+		color: white;
+
+		.promo {
+			width: 100%;
+			height: 100%;
+			border-radius: 15px;
+			padding: 0;
+			background-color: #242424;
+
+			.promo-img {
+				display: none;
+			}
+
+			.card-body {
+				justify-content: center;
+				display: flex;
+				flex-direction: column;
+
+				.promo-title {
+					font-family: $title;
+					font-size: 35px;
+
+					span {
+						color: $color-secondary;
+					}
+				}
+
+				.promo-date {
+					font-size: 1.4rem;
+
+					span {
+						font-family: $strongFont;
+						color: $color-secondary;
+					}
+				}
+
+				.promo-price {
+					& :first-child {
+						text-decoration-line: line-through;
+						text-decoration-color: $color-secondary;
+						text-decoration-thickness: 2px;
+						text-decoration-style: double;
+					}
+
+					& :last-child {
+						font-family: $strongFont;
+
+						&::before {
+							content: '- ';
+						}
+					}
+				}
+
+				.promo-btn {
+					align-self: flex-end;
+					width: max-content;
+					border-radius: 15px;
+					padding: 12px 20px;
+					margin-top: 15px;
+					color: white;
+					background-color: $color-secondary;
+					font-family: $strongFont;
+					text-transform: uppercase;
+				}
+			}
+
+		}
+	}
+
+	@media (max-width:$largeBreakpoint) {
+		.box {
+			display: flex;
+			flex-direction: column;
+
+			.promo-container {
+				.promo {
+					flex-direction: row;
+
+					.promo-img {
+						flex: 1 1 0;
+						display: block;
+						background-color: #0b0b0b36;
+						color: white;
+						background: #161616 url("../image/promo.png") no-repeat;
+						// background-position-y: bottom;
+						// background-position-x: 80%;
+						background-position: center;
+						// background-size: 700px;
+					}
+
+					.card-body {
+						flex: 1 1 0;
+					}
+				}
+			}
+		}
+	}
+
+	@media (max-width:$firstBreakpoint) {
+		.box {
+			.promo-container {
+				display: flex;
+				justify-content: center;
+
+				.promo {
+					max-width: 60%;
+
+					.promo-img {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	@media (max-width:$secondBreakpoint) {
+		.box {
+			.promo-container {
+				.promo {
+					max-width: 100%;
 				}
 			}
 		}
