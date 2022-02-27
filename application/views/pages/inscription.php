@@ -13,6 +13,8 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="<?= base_url()?>assets/css/global.css?v=<?=$v?>">
     <link rel="stylesheet" href="<?= base_url()?>assets/css/thankyou.css?v=<?=$v?>">
+    <link rel="stylesheet" href="<?= base_url()?>assets/css/footer.css?v=<?=$v?>">
+    <script src="https://kit.fontawesome.com/e0cd5a3dfc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>

@@ -23,15 +23,24 @@
   color: black;
 }
 
-.vocation .box {
+.vocation .box .osez {
   margin: 0;
   z-index: 2;
   background: #af141a;
-  background: linear-gradient(343deg, #af141a 0%, #d45e22 48%, #d76423 57%, #fcae2c 100%);
+  background: linear-gradient(352deg, #af141a 0%, #d45e22 48%, #d76423 57%, #fcae2c 100%);
   border-radius: 8px;
   color: white;
   -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.vocation .box #promo-container {
+  padding-left: 10px;
+}
+
+.vocation .box #promo-container .promo {
+  height: 100%;
+  background: #FCAE2C;
 }
 
 .vocation .box p {

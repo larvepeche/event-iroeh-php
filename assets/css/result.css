@@ -18,7 +18,7 @@
 }
 
 .result .row {
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.842);
   color: white;
 }
 
@@ -42,9 +42,15 @@
   }
 }
 
+@media (max-width: 515px) {
+  .result .row h3 {
+    font-size: 8vw;
+  }
+}
+
 .result .row .image {
   min-height: 300px;
-  background-image: url("../image/result.jpg");
+  background-image: url("../image/activite.jpg");
   background-size: cover;
   background-position: center;
 }

@@ -66,10 +66,11 @@ p {
 	padding: 20px 40px;
 	border-radius: 50px;
 	border: 0;
-    transition: all 0.25s;
-	border : 2px solid $color-third;
+	transition: all 0.25s;
+	border: 2px solid $color-third;
 	box-sizing: border-box;
-	&.fill{
+
+	&.fill {
 		box-sizing: border-box;
 		width: max-content;
 		padding: 15px 60px;
@@ -77,27 +78,32 @@ p {
 		// text-transform: capitalize;
 		font-size: 20px !important;
 	}
-	&.semi-rounded-left{
+
+	&.semi-rounded-left {
 		border-radius: 0px 39px 0px 39px;
 	}
-	&.semi-rounded-right{
+
+	&.semi-rounded-right {
 		border-radius: 39px 0 39px 0;
 	}
-	&.b-white{
+
+	&.b-white {
 		background-color: white;
-    	border : 2px solid white;
-    	color: black;
-    	font-size: 20px !important;
-    	&:hover{
-    	    background-color: transparent;
-    	    color:white;
-    	}
+		border: 2px solid white;
+		color: black;
+		font-size: 20px !important;
+
+		&:hover {
+			background-color: transparent;
+			color: white;
+		}
 	}
-	&.hover-black{
-		&:hover{
+
+	&.hover-black {
+		&:hover {
 			background: none;
-			color:black;
-			border : 2px solid black;
+			color: black;
+			border: 2px solid black;
 		}
 	}
 
@@ -106,7 +112,20 @@ p {
 a.cbtn:hover {
 	color: white;
 }
-.text-black{
-	color : black !important
+
+.text-black {
+	color: black !important
 }
 
+.p1 {
+	padding: 1rem;
+}
+
+.p5 {
+	padding: 3rem;
+
+	@media(max-width : $firstBreakpoint) {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
