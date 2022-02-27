@@ -12,7 +12,7 @@
                    <a href="tel:0345103540"><p class="ctitle">+261 34 51 035 40</p></a>
                    <a href="mailto:contact@iroeh.com"><p class="mb-0 ctitle">contact@iroeh.com</p></a>
                    <br/>
-                   <span class="ctitle">Suivre</span>
+                   <span class="ctitle">Suivez-nous sur les réseaux</span>
                     <div class="social-media">
                         <a target="_blank" href="https://www.facebook.com/leadership.iroeh"><i class="bi bi-facebook"></i></a>
                         <a target="_blank" href="https://www.linkedin.com/company/iro-eh/"><i class="bi bi-linkedin"></i></a>

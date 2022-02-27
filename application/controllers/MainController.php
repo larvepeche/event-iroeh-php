@@ -76,8 +76,9 @@ class MainController extends CI_Controller
                 $this->input->post('phone'),
                 $this->input->post('gender')
             );
-            $member->insert();
-			$this->session->set_userdata('member',$member);
+            $id = $member->insert();
+            $result = $member->setId($id);
+			$this->session->set_userdata('member',$result);
 			redirect(base_url("inscription/thankyou"));
         }
     }

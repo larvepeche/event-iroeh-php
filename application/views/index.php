@@ -52,7 +52,7 @@
             <div class="container-fluid">
                 <div class="row px7 align-items-center box py-5">
                     <div class="col-lg-6">
-                        <h3 class="" data-aos="fade-up" data-aos-delay="150">Osez !</h3>
+                        <h3 class="" data-aos="fade-up" data-aos-delay="150">Osez dire oui!</h3>
                         <div class="">
                             <p data-aos="fade-up" data-aos-delay="150">Quelle qu'elle soit votre vocation <br />ou votre
                                 aspiration, vous <strong>pouvez <br />augmenter votre impact</strong> sur les autres
@@ -66,6 +66,22 @@
                     </div>
                 </div>
             </div>
+            <!-- 
+                
+            //inscription avant le x 
+            5 jours 
+            (promo normal e)
+            everywhere
+            Compris dans le pack
+            -kit "d'influence"
+            -hebergement
+            -transport
+            -restauration
+
+            
+
+        
+            -->
         </section>
         <section class="forbg container-fluid pb-5">
             <div class="row goal-section justify-content-center">
@@ -89,7 +105,7 @@
                     et
                     voyez votre <strong>succès</strong> personnel et professionnel atteindre des sommets.
                 </p>
-                <a href="inscription"><button data-aos="fade-down" data-aos-delay="150" class="cbtn fill semi-rounded-left b-white hover-black">Je Participe !</button></a>
+                <a href="inscription"><button data-aos="fade-down" data-aos-delay="150" class="cbtn fill semi-rounded-left b-white hover-black">Je participe !</button></a>
             </div>
         </div>
         </section>

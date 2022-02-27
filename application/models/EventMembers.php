@@ -1,6 +1,8 @@
 <?php
 class EventMembers extends CI_Model
 {
+
+    private $ID;
     private $lastName;
     private $firstName;
     private $email;
@@ -109,6 +111,15 @@ class EventMembers extends CI_Model
         return $this;
     }
 
+    public function getId(){
+        return $this->ID;
+    }
+    
+    public function setId($ID){
+        $this->ID = $ID;
+        return $this;
+    }
+
     /**
      * Get the value of gender
      */
@@ -157,6 +168,8 @@ class EventMembers extends CI_Model
             'gender' => $this->gender
         );
         $this->db->insert($this->tableName, $data);
+        $id_cours = $this->db->insert_id();
+        return $id_cours;
     }
 
 
