@@ -21,12 +21,32 @@ body {
   position: relative;
 }
 
+.cpy {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
 .thankyou {
   background: white;
 }
 
-.thankyou center {
+.thankyou .ok {
   position: absolute;
-  bottom: 0;
+  right: 0;
+  top: 0;
+}
+
+.thankyou h3 {
+  font-family: "Proxima Nova bold";
+}
+
+.thankyou .text-blue {
+  color: #3a5985ee;
+  text-transform: capitalize;
+}
+
+.thankyou .text-muted {
+  font-size: 14px;
 }
 /*# sourceMappingURL=thankyou.css.map */
