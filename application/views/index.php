@@ -40,7 +40,7 @@
                     <span data-aos="fade-up" data-aos-delay="250">d'influence</span>
                 </h1>
                 <p data-aos="fade-down" data-aos-delay="150">Comment impacter positivement <br />les vies de ceux autour
-                    de nous?</p>
+                    de nous ?</p>
                 <p class="lancement">Le 26 & 27 Mars 2022 </p>
                 <a href="inscription"><button data-aos="fade-down" data-aos-delay="150" class="cbtn fill semi-rounded-left b-white participe">Participer</button></a>
             </div>
