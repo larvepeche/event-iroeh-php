@@ -87,8 +87,8 @@
 					& :first-child {
 						text-decoration-line: line-through;
 						text-decoration-color: $color-secondary;
-						text-decoration-thickness: 2px;
-						text-decoration-style: double;
+						text-decoration-thickness: 3px;
+						text-decoration-style: solid;
 					}
 
 					& :last-child {

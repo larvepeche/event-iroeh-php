@@ -111,9 +111,9 @@
           text-decoration-line: line-through;
   -webkit-text-decoration-color: #FCAE2C;
           text-decoration-color: #FCAE2C;
-  text-decoration-thickness: 2px;
-  -webkit-text-decoration-style: double;
-          text-decoration-style: double;
+  text-decoration-thickness: 3px;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
 }
 
 .vocation .promo-container .promo .card-body .promo-price :last-child {
