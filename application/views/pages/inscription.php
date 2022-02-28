@@ -20,7 +20,8 @@
 <body>
     <div id="left-part">
         <header>
-            <img class="logo" src="<?= base_url() ?>assets/image/logo-white.png" />
+            <a class="text-white text-decoration-none h5 z-index-99" href="<?= base_url()?>"><i class="fa-solid fa-angle-left"></i> <strong>Retour</strong></a><br/>
+            <img class="logo pt-4 " src="<?= base_url() ?>assets/image/logo-white.png" />
             <h1>
                 Devenez <br /> une Personne <br />Influente.
             </h1>
