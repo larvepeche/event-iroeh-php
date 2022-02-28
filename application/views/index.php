@@ -81,7 +81,7 @@
         </section>
         <section class=" forbg container-fluid pb-5">
             <div class="row goal-section justify-content-center">
-                <div class="col-sm-10 col-md-9 col-lg-8 col-xl-7 goal-list">
+                <div class="col-sm-10 col-md-9 col-lg-10 col-xl-7 goal-list">
                     <div class="goal-item" data-aos="fade-up" data-aos-delay="150"><span><strong>Les managers</strong> <br /> verront leurs employés répondre avec plus
                             d'enthousiasme</span></div>
                     <div class="goal-item" data-aos="fade-up" data-aos-delay="150"><span><strong>Les parents</strong><br /> se connecteront
