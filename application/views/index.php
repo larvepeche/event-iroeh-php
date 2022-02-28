@@ -63,10 +63,10 @@
                             </p>
                         </div>
                     </div>
-                    <div class="position-relative promo-container col-sm-10 col-md-9 col-lg-10 col-xl-4 mt-3 mt-xl-0" data-aos="fade-up" data-aos-delay="150">
+                    <div class="position-relative promo-container col-sm-10 col-md-9 col-lg-10 col-xl-4 mt-3 mt-xl-0" data-aos="fade-up" data-aos-delay="200">
                         <div class="promo card">
                             <div class="promo-img"></div>
-                            <div class="card-body px-4 py-5">
+                            <div class="card-body px-4 py-5" data-aos="fade-up" data-aos-delay="200">
                                 <p class="card-title promo-title">Obtenez une remise de <span>20%</span></p>
                                 <p class="promo-date">Inscrivez-vous avant le <span>05 mars 2022</span></p>
                                 <p class="promo-price">
@@ -95,14 +95,14 @@
                     <div class="goal-item" data-aos="fade-up" data-aos-delay="250"><span><strong>Les commerciaux</strong> <br />atteindront de
                             nouveaux records de ventes</span></div>
                 </div>
-                <div class="col-sm-10 col-md-9 col-lg-10 col-xl-4">
-                    <h3 class="goal-title">Apprendre</h3>
-                    <p class="">
+                <div class="col-sm-10 col-md-9 col-lg-10 col-xl-4 overflow-hidden">
+                    <h3 class="goal-title" data-aos="fade-left" data-aos-delay="150">Apprendre</h3>
+                    <p class="" data-aos="fade-left" data-aos-delay="200">
                         Apprenez des façons <strong>simples</strong> mais <strong>puissantes</strong> d'interagir de façon plus positive avec les autres,
                         et
                         voyez votre <strong>succès</strong> personnel et professionnel atteindre des sommets.
                     </p>
-                    <a href="inscription"><button data-aos="fade-down" data-aos-delay="150" class="cbtn fill semi-rounded-left b-white hover-black">Je participe !</button></a>
+                    <a href="inscription"><button data-aos="fade-left" data-aos-delay="250" class="cbtn fill semi-rounded-left b-white hover-black">Je participe !</button></a>
                 </div>
             </div>
         </section>
