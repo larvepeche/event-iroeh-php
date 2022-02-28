@@ -4,7 +4,7 @@
         if(isset($member)){ ?>
             <lottie-player class="ok" src="https://assets10.lottiefiles.com/packages/lf20_uk52xbuq.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;" hover   autoplay></lottie-player>
             <h3>Merci <span class="text-blue"><?=$member->getLastName()." ".$member->getFirstName()?></span> <br/>pour votre inscription !</h3>
-            <h5>Veuillez valider votre inscription en payant la somme prévue. </h5>
+            <h5>Veuillez valider votre inscription en payant la somme prévue dans les <strong>48h qui suivent</strong>. </h5>
             <h5>Tarif : <strong><?= $price ?> MGA</strong></h5>
             <hr/>
             <p>Paiement par Mvola : <br/>
