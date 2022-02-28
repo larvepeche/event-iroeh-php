@@ -28,7 +28,7 @@
         </header>
         <div class="razoky">
             <!-- <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_mfxcee5x.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></lottie-player> -->
-            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_v76uer72.json"  background="transparent"  speed="1"  style="width: 100%;"  loop  autoplay></lottie-player>
+            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_y4a3ixuv.json"  background="transparent"  speed="1"  style="width: 100%;"  loop  autoplay></lottie-player>
         </div>
     </div>
     <div id="right-part">
