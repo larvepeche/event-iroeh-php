@@ -72,7 +72,7 @@
                                     <span>250.000 MGA</span>
                                     <span>200.000 MGA</span>
                                 </p>
-                                <a href="inscription" class="promo-btn">s'inscrire >>></a>
+                                <a href="inscription" class="promo-btn">s'inscrire <i class="fa-solid fa-angles-right"></i></a>
                             </div>
                         </div>
                     </div>
