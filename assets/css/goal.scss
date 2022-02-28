@@ -29,23 +29,25 @@
 		}
 
 		.goal-item:nth-of-type(1) {
-			background-color: #1D3557;
+			background-color: #0D1B2A;
 		}
 
 		.goal-item:nth-of-type(2) {
-			background-color: #E63946;
+			background-color: #1B263B;
 		}
 
 		.goal-item:nth-of-type(3) {
-			background-color: #6D6875;
+			background-color: #415A77;
 		}
 
 		.goal-item:nth-of-type(4) {
-			background-color: #BC6C25;
+			background-color: #778DA9;
 		}
 
 		.goal-item:nth-of-type(5) {
-			background-color: #8D99AE;
+			color: black;
+			// background-color: #E0E1DD;
+			background-color: #D2D2D0;
 		}
 	}
 
@@ -68,7 +70,8 @@
 		// flex-wrap: ;
 		flex-direction: column-reverse;
 		align-items: center;
-		&>div:nth-child(2){
+
+		&>div:nth-child(2) {
 			margin-bottom: 20px;
 		}
 	}
@@ -85,7 +88,8 @@
 	p {
 		font-size: 1.2em;
 	}
-	.test{
+
+	.test {
 		box-sizing: border-box;
 	}
 }

@@ -62,7 +62,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="position-relative promo-container col-xl-4 col-lg-10 col-md-9 col-sm-10 mt-3 mt-xl-0 ">
+                    <div class="position-relative promo-container col-xl-4 col-lg-10 col-md-9 col-sm-10 mt-3 mt-xl-0" data-aos="fade-up" data-aos-delay="150">
                         <div class="promo card">
                             <div class="promo-img"></div>
                             <div class="card-body px-4">

@@ -53,23 +53,24 @@
 }
 
 .goal-section .goal-list .goal-item:nth-of-type(1) {
-  background-color: #1D3557;
+  background-color: #0D1B2A;
 }
 
 .goal-section .goal-list .goal-item:nth-of-type(2) {
-  background-color: #E63946;
+  background-color: #1B263B;
 }
 
 .goal-section .goal-list .goal-item:nth-of-type(3) {
-  background-color: #6D6875;
+  background-color: #415A77;
 }
 
 .goal-section .goal-list .goal-item:nth-of-type(4) {
-  background-color: #BC6C25;
+  background-color: #778DA9;
 }
 
 .goal-section .goal-list .goal-item:nth-of-type(5) {
-  background-color: #8D99AE;
+  color: black;
+  background-color: #D2D2D0;
 }
 
 .goal-section .goal-title {
