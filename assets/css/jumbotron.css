@@ -22,16 +22,12 @@
 
 .header .row {
   position: relative;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 0px;
-          flex: 1 1 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex: 1 1 0;
+  justify-content: center;
   max-width: 100%;
   z-index: 1;
   font-size: 22px;
-  background: #161616 url("../image/fabrice-front.png") no-repeat;
+  background: #161616 url("../image/fabrice-front-min.png") no-repeat;
   background-position-y: bottom;
   background-position-x: 80%;
   background-size: contain;
@@ -97,10 +93,7 @@
   position: absolute;
   top: 50%;
   right: 10%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  width: -webkit-max-content;
-  width: -moz-max-content;
+  transform: translateY(-50%);
   width: max-content;
   text-transform: uppercase;
   padding: 0;
@@ -122,8 +115,6 @@
 
 .header .row .promo-container .promo-date,
 .header .row .promo-container .promo-price {
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
   position: absolute;
   background-color: #FCAE2C;
@@ -134,19 +125,16 @@
 
 .header .row .promo-container .promo-date {
   top: 0;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .header .row .promo-container .promo-price {
   bottom: 0;
-  -webkit-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
 }
 
 .header .row .promo-container .promo-price :first-child {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
 }
 
 .header .row .promo-container .promo-price :last-child::before {

@@ -111,7 +111,7 @@
                 <div class="col-md-6 image-container">
                     <div class="squares col-lg-12 mb-5">
                         <div data-aos="fade-up" data-aos-delay="150" class="img-container">
-                            <img src="<?= base_url() ?>assets/image/fabrice.png" alt="Fabrice">
+                            <img src="<?= base_url() ?>assets/image/fabrice-min.png" alt="Fabrice">
                         </div>
                         <div data-aos="fade-down" data-aos-delay="250" class="black-square">
                         </div>
