@@ -141,7 +141,7 @@
 }
 
 .vocation .promo-container .promo .card-body .promo-btn:hover {
-  text-decoration: underline;
+  border-bottom: 1px #FCAE2C solid;
 }
 
 @media (max-width: 1200px) {
