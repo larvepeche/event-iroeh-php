@@ -17,24 +17,11 @@
   background-color: #0b0b0b36;
   height: 100vh;
   color: white;
-  background: #161616 url("../image/fabrice-front.png") no-repeat;
-  background-position-y: bottom;
-  background-position-x: 80%;
-  background-size: 700px;
-}
-
-.header::before {
-  content: '';
-  background-color: #16161685;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
+  background: #161616;
 }
 
 .header .row {
+  position: relative;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 0px;
           flex: 1 1 0;
@@ -43,10 +30,22 @@
           justify-content: center;
   max-width: 100%;
   z-index: 1;
+  font-size: 22px;
+  background: #161616 url("../image/fabrice-front.png") no-repeat;
+  background-position-y: bottom;
+  background-position-x: 80%;
+  background-size: contain;
 }
 
-.header .row .jumbotron {
-  font-size: 22px;
+.header .row::before {
+  content: '';
+  background-color: #16161685;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .header .row .jumbotron p:nth-child(2) {
@@ -172,6 +171,15 @@
   }
   .header::before {
     background-color: #161616bf;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .header .row {
+    background-size: cover;
+  }
+  .header .row::before {
+    background-color: #161616bd;
   }
 }
 /*# sourceMappingURL=jumbotron.css.map */
