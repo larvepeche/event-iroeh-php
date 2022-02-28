@@ -1,184 +1,198 @@
 @font-face {
-  font-family: "Proxima Nova regular";
-  src: url("../fonts/proxima/ProximaNova-Regular.otf");
+	font-family: "Proxima Nova regular";
+	src: url("../fonts/proxima/ProximaNova-Regular.otf");
 }
 
 @font-face {
-  font-family: "Proxima Nova bold";
-  src: url("../fonts/proxima/Proxima Nova Bold.otf");
+	font-family: "Proxima Nova bold";
+	src: url("../fonts/proxima/Proxima Nova Bold.otf");
 }
 
 @font-face {
-  font-family: "bebas";
-  src: url("../fonts/bebas/BebasNeue-Regular.ttf");
+	font-family: "bebas";
+	src: url("../fonts/bebas/BebasNeue-Regular.ttf");
 }
 
 .vocation {
-  font-size: 22px;
+	font-size: 22px;
 }
 
 .vocation h3 {
-  font-size: 60px;
-  font-family: "bebas";
-  color: black;
+	font-size: 60px;
+	font-family: "bebas";
+	color: black;
 }
 
 .vocation .box .osez {
-  margin: 0;
-  z-index: 2;
-  background: #af141a;
-  background: linear-gradient(352deg, #af141a 0%, #d45e22 48%, #d76423 57%, #fcae2c 100%);
-  border-radius: 8px;
-  color: white;
-  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	margin: 0;
+	z-index: 2;
+	background: #af141a;
+	background: linear-gradient(352deg, #af141a 0%, #d45e22 48%, #d76423 57%, #fcae2c 100%);
+	border-radius: 8px;
+	color: white;
+	-webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.vocation .box #promo-container {
+	padding-left: 10px;
+}
+
+.vocation .box #promo-container .promo {
+	height: 100%;
+	background: #FCAE2C;
 }
 
 .vocation .box p {
-  margin: 0;
+	margin: 0;
 }
 
 @media (max-width: 515px) {
-  .vocation .box br {
-    display: none;
-  }
+	.vocation .box br {
+		display: none;
+	}
 }
 
 .vocation .box #animate1 #plant {
-  width: 100%;
-  height: 500px;
-  position: absolute;
-  bottom: 0;
-  -webkit-transform: translate(10%, 42%);
-          transform: translate(10%, 42%);
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	bottom: 0;
+	-webkit-transform: translate(10%, 42%);
+	transform: translate(10%, 42%);
 }
 
 @media (max-width: 992px) {
-  .vocation .box #animate1 #plant {
-    display: none;
-  }
+	.vocation .box #animate1 #plant {
+		display: none;
+	}
 }
 
 .vocation .promo-container {
-  color: white;
+	color: white;
 }
 
 .vocation .promo-container .promo {
-  width: 100%;
-  height: 100%;
-  border-radius: 15px;
-  padding: 0;
-  background-color: #242424;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	padding: 0;
+	background-color: #242424;
 }
 
 .vocation .promo-container .promo .promo-img {
-  display: none;
+	display: none;
 }
 
 .vocation .promo-container .promo .card-body {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 }
 
 .vocation .promo-container .promo .card-body .promo-title {
-  font-family: "bebas";
-  font-size: 35px;
+	font-family: "bebas";
+	font-size: 35px;
 }
 
 .vocation .promo-container .promo .card-body .promo-title span {
-  color: #FCAE2C;
+	color: #FCAE2C;
 }
 
 .vocation .promo-container .promo .card-body .promo-date {
-  font-size: 1.4rem;
+	font-size: 1.4rem;
 }
 
 .vocation .promo-container .promo .card-body .promo-date span {
-  font-family: "Proxima Nova bold";
-  color: #FCAE2C;
+	font-family: "Proxima Nova bold";
+	color: #FCAE2C;
 }
 
 .vocation .promo-container .promo .card-body .promo-price :first-child {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  -webkit-text-decoration-color: #FCAE2C;
-          text-decoration-color: #FCAE2C;
-  text-decoration-thickness: 2px;
-  -webkit-text-decoration-style: double;
-          text-decoration-style: double;
+	-webkit-text-decoration-line: line-through;
+	text-decoration-line: line-through;
+	-webkit-text-decoration-color: #FCAE2C;
+	text-decoration-color: #FCAE2C;
+	text-decoration-thickness: 2px;
+	-webkit-text-decoration-style: double;
+	text-decoration-style: double;
 }
 
 .vocation .promo-container .promo .card-body .promo-price :last-child {
-  font-family: "Proxima Nova bold";
+	font-family: "Proxima Nova bold";
 }
 
 .vocation .promo-container .promo .card-body .promo-price :last-child::before {
-  content: '- ';
+	content: '- ';
 }
 
 .vocation .promo-container .promo .card-body .promo-btn {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  border-radius: 15px;
-  padding: 12px 20px;
-  margin-top: 15px;
-  color: white;
-  background-color: #FCAE2C;
-  font-family: "Proxima Nova bold";
-  text-transform: uppercase;
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content;
+	border-radius: 15px;
+	padding: 12px 20px;
+	margin-top: 15px;
+	color: white;
+	background-color: #FCAE2C;
+	font-family: "Proxima Nova bold";
+	text-transform: uppercase;
 }
 
 @media (max-width: 1200px) {
-  .vocation .box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .vocation .box .promo-container {
-    padding: 0;
-  }
-  .vocation .box .promo-container .promo {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    overflow: hidden;
-  }
-  .vocation .box .promo-container .promo .promo-img {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 0px;
-            flex: 1 1 0;
-    display: block;
-    background-color: #0b0b0b36;
-    color: white;
-    background: #161616 url("../image/promo.png") no-repeat;
-    background-position: center;
-  }
-  .vocation .box .promo-container .promo .card-body {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 0px;
-            flex: 1 1 0;
-  }
+	.vocation .box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.vocation .box .promo-container {
+		padding: 0;
+	}
+
+	.vocation .box .promo-container .promo {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		overflow: hidden;
+	}
+
+	.vocation .box .promo-container .promo .promo-img {
+		-webkit-box-flex: 1;
+		-ms-flex: 1 1 0px;
+		flex: 1 1 0;
+		display: block;
+		background-color: #0b0b0b36;
+		color: white;
+		background: #161616 url("../image/promo.png") no-repeat;
+		background-position: center;
+	}
+
+	.vocation .box .promo-container .promo .card-body {
+		-webkit-box-flex: 1;
+		-ms-flex: 1 1 0px;
+		flex: 1 1 0;
+	}
 }
 
 @media (max-width: 992px) {
-  .vocation .box .promo-container .promo .promo-img {
-    display: none;
-  }
+	.vocation .box .promo-container .promo .promo-img {
+		display: none;
+	}
 }
+
 /*# sourceMappingURL=vocation.css.map */

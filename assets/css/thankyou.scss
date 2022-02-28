@@ -8,8 +8,13 @@ body {
 	position: relative;
 }
 
-.thankyou {
+.cpy {
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+}
 
+.thankyou {
 	background: white;
 
 	@media(max-width:$firstBreakpoint) {
@@ -17,8 +22,23 @@ body {
 		// border-radius: 10px;
 	}
 
-	center {
+	.ok {
 		position: absolute;
-		bottom: 0;
+		right: 0;
+		top: 0;
 	}
+
+	h3 {
+		font-family: $strongFont;
+	}
+
+	.text-blue {
+		color: $color-third;
+		text-transform: capitalize;
+	}
+
+	.text-muted {
+		font-size: 14px;
+	}
+
 }

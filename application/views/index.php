@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/goal.css?v=<?= $v ?>">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/seminaire.css?v=<?= $v ?>">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/result.css?v=<?= $v ?>">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/about.css?v=<?= $v ?>">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/footer.css?v=<?= $v ?>">
 
 </head>
@@ -108,6 +109,36 @@
         <?php $this->load->view('components/event/seminaire.php'); ?>
         <?php $this->load->view('components/event/result.php'); ?>
 
+        <section class="container-fluid" id="about-fabrice">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="squares col-lg-12 mb-5">
+                        <div class="img-container">
+                            <img src="<?= base_url() ?>assets/image/fabrice.png" alt="Fabrice">
+                        </div>
+                        <div class="black-square">
+                        </div>
+                        <div class="yellow-square">
+                        </div>
+                        <div class="blue-square">
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container col-lg-5 col-xl-4">
+                    <div class="separator"></div>
+                    <div>
+                        <div class="separator"></div>
+                        <div class="name">Fabrice Rabeson</div>
+                        <p>Avec un Master en Comptabilité Finances issu de l'ISCAM et un parcours en entrepreneuriat à son actif, notre cher Tsihoarana Fabrice Rabeson a pris une toute autre direction pour sa carrière professionnelle en se penchant sur le développement personnel et le leadership.</p>
+                        <p>
+                            Récemment <b>certifié par la John Maxwell TEAM</b>, Fabrice est convaincu que se centrer sur l'Humain est impératif pour que celui-ci développe au mieux ses compétences techniques et ainsi l'entité où elle se trouve.
+                            Un des messages qui a marqué notre CEO <b>"Soyez meilleur dans ce que vous faîtes et excellent dans ce que vous êtes"</b>Et tout cela pour une <b>VISION</b>, c'est de permettre à chaque individu de construire une bonne fondation pour être meilleur dans ce qu’il fait et être <b>EXCELLENT</b> dans ce qu’il <b>EST</b>.
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <?php $this->load->view('layouts/footer.php'); ?>
 </body>

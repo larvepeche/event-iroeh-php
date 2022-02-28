@@ -49,9 +49,6 @@ main, header {
     margin: 0 auto;
 }
 
-header{
-    
-}
 @media(max-width:515px){
     header{
         background-position:top;

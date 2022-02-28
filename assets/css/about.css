@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "bebas";
+  src: url("../fonts/bebas/BebasNeue-Regular.ttf");
+}
+
+#about-fabrice {
+  padding-bottom: 150px;
+  padding-top: 150px;
+  background-color: #E4E4E4;
+}
+
+#about-fabrice .black-square, #about-fabrice .yellow-square, #about-fabrice .blue-square {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #about-fabrice .squares {
+    position: relative;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    float: right;
+  }
+  #about-fabrice .black-square, #about-fabrice .yellow-square, #about-fabrice .blue-square {
+    display: block;
+    position: absolute;
+  }
+  #about-fabrice .yellow-square, #about-fabrice .blue-square {
+    border-radius: 15px 0 0 15px;
+  }
+  #about-fabrice .black-square {
+    background-color: #1F1F1F;
+    width: 300px;
+    height: 250px;
+    top: 50%;
+    z-index: 1;
+    right: 50%;
+  }
+  #about-fabrice .yellow-square {
+    background-color: #FCAE2C;
+    width: 350px;
+    height: 30px;
+    z-index: 2;
+    right: 50%;
+    bottom: 70px;
+  }
+  #about-fabrice .blue-square {
+    background-color: #007A9C;
+    height: 10px;
+    width: 50%;
+    height: 5px;
+    z-index: 2;
+    right: 50%;
+    bottom: -53px;
+  }
+}
+
+#about-fabrice .name {
+  color: black;
+  font-size: 50px;
+  font-family: "bebas";
+  margin-bottom: 30px;
+}
+
+#about-fabrice .img-container {
+  z-index: 3;
+  position: relative;
+  background-color: #000;
+  width: 300px;
+  height: 340px;
+}
+
+#about-fabrice p {
+  color: black;
+}
+
+#about-fabrice img {
+  width: 100%;
+}
+
+#about-fabrice .separator {
+  height: 3px;
+  width: 100px;
+  background-color: #007A9C;
+}
+/*# sourceMappingURL=about.css.map */

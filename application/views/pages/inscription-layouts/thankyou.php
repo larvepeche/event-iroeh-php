@@ -1,15 +1,18 @@
 <section class="p-4 mt-5 thankyou">
+    <lottie-player class="ok" src="https://assets10.lottiefiles.com/packages/lf20_uk52xbuq.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;" hover   autoplay></lottie-player>
     <?php 
         $member = $this->session->userdata('member');
         if(isset($member)){ ?>
-            <h2>Merci <span class="text-black"><?=$member->getLastName()." ".$member->getFirstName()?></span> <br/>pour votre inscription !</h2>
-            <h3></h3>
-            <p>Validez votre inscription en payant la somme prévue. </p>
-            <p>Tarif : <strong>250.000 MGA</strong>  </p>
+            <h3>Merci <span class="text-blue"><?=$member->getLastName()." ".$member->getFirstName()?></span> <br/>pour votre inscription !</h3>
+            <h5>Veuillez valider votre inscription en payant la somme prévue. </h5>
+            <h5>Tarif : <strong>250.000 MGA</strong></h5>
+            <hr/>
             <p>Paiement par Mvola : <br/>
-                Numéro : XXXXXXX ( Tsihoarana Fabrice )
+                Numéro : <strong>034 51 035 40</strong> ( Tsihoarana Fabrice )
                 <br/>
-                Motif : DPI<?=$member->getId()?>
+                Motif : <strong>DPI<?=$member->getId()?></strong>
+                <br/>
+                <span class="text-muted">Veuillez inclure remplir le motif mvola par le code ci-dessus (DPI<?=$member->getId()?>)</span>
             </p>
             <p>26 & 27 Mars 2022 | God's love Ambohitrimanjaka</p>
         <?php }
@@ -17,4 +20,4 @@
             <h2>pas encore inscris</h2>
     <?php } ?>
 </section>
-<center><p class="mb-0 py-4 ctitle">COPYRIGHT © 2022, DESIGNED BY IROEH. All Rights reserved</p></center>
+<p class="mb-0 cpy py-4 ctitle">COPYRIGHT © 2022, DESIGNED BY IROEH. All Rights reserved</p>
