@@ -28,7 +28,9 @@ class MainController extends CI_Controller
 		$this->load->library('session');
 		$this->Inscriptiondata['page'] = null;
     }
-
+    private function getPrice(){
+        return "200 000";
+    }
     private function getVersion()
     {
         // $cssVersion
@@ -37,6 +39,7 @@ class MainController extends CI_Controller
     public function index()
     {
         $data['cssVersion'] = $this->getVersion();
+        $data['price'] = $this->getPrice();
         $this->load->view('index', $data);
     }
     public function inscription($page = NULL)
@@ -46,6 +49,7 @@ class MainController extends CI_Controller
 		}else{
 			$data['page'] = "pages/inscription-layouts/form.php";
 		}
+        $data['price'] = $this->getPrice();
         $data['cssVersion'] = $this->getVersion();
         $this->load->view('pages/inscription', $data);
     }
