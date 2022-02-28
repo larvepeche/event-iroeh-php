@@ -1,4 +1,19 @@
 @font-face {
+  font-family: "Proxima Nova regular";
+  src: url("../fonts/proxima/ProximaNova-Regular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova bold";
+  src: url("../fonts/proxima/Proxima Nova Bold.otf");
+}
+
+@font-face {
+  font-family: "bebas";
+  src: url("../fonts/bebas/BebasNeue-Regular.ttf");
+}
+
+@font-face {
   font-family: "bebas";
   src: url("../fonts/bebas/BebasNeue-Regular.ttf");
 }
@@ -9,6 +24,10 @@
   background-color: #E4E4E4;
   background-image: url("../image/pattern-r-2.png");
   background-repeat: repeat-y;
+}
+
+#about-fabrice p {
+  text-align: justify !important;
 }
 
 #about-fabrice .black-square, #about-fabrice .yellow-square, #about-fabrice .blue-square {
@@ -93,5 +112,23 @@
   height: 3px;
   width: 100px;
   background-color: #007A9C;
+}
+
+@media (max-width: 992px) {
+  #about-fabrice .squares {
+    display: flex;
+    justify-content: center;
+  }
+  #about-fabrice .name {
+    text-align: center;
+  }
+  #about-fabrice .separator {
+    display: none;
+  }
+  #about-fabrice .image-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
 }
 /*# sourceMappingURL=about.css.map */
