@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devenez une personne d'influence | IROEH</title>
-    <link rel="icon" href="img/favicon.jpg" />
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -107,9 +106,7 @@
             </div>
         </section>
         <?php $this->load->view('components/event/seminaire.php'); ?>
-        <?php $this->load->view('components/event/result.php'); ?>
-
-        <section class="container-fluid" id="about-fabrice">
+        <section class="container-fluid px5" id="about-fabrice">
             <div class="row">
                 <div class="col-md-6">
                     <div class="squares col-lg-12 mb-5">
@@ -124,21 +121,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-container col-lg-5 col-xl-4">
+                <div class="content-container col-sm-8 col-lg-5 col-xl-4">
                     <div class="separator"></div>
                     <div>
                         <div class="separator"></div>
                         <div class="name">Fabrice Rabeson</div>
                         <p>Avec un Master en Comptabilité Finances issu de l'ISCAM et un parcours en entrepreneuriat à son actif, notre cher Tsihoarana Fabrice Rabeson a pris une toute autre direction pour sa carrière professionnelle en se penchant sur le développement personnel et le leadership.</p>
                         <p>
-                            Récemment <b>certifié par la John Maxwell TEAM</b>, Fabrice est convaincu que se centrer sur l'Humain est impératif pour que celui-ci développe au mieux ses compétences techniques et ainsi l'entité où elle se trouve.
-                            Un des messages qui a marqué notre CEO <b>"Soyez meilleur dans ce que vous faîtes et excellent dans ce que vous êtes"</b>Et tout cela pour une <b>VISION</b>, c'est de permettre à chaque individu de construire une bonne fondation pour être meilleur dans ce qu’il fait et être <b>EXCELLENT</b> dans ce qu’il <b>EST</b>.
+                            <strong>Certifié par la John Maxwell TEAM</strong>, Fabrice est convaincu que se centrer sur l'Humain est impératif pour que celui-ci développe au mieux ses compétences techniques et ainsi l'entité où elle se trouve.
+                            Un des messages qui a marqué notre CEO <strong>"Soyez meilleur dans ce que vous faîtes et excellent dans ce que vous êtes"</strong>Et tout cela pour une <strong>VISION</strong>, c'est de permettre à chaque individu de construire une bonne fondation pour être meilleur dans ce qu’il fait et être <strong>EXCELLENT</strong> dans ce qu’il <strong>EST</strong>.
                         </p>
                         </p>
                     </div>
                 </div>
             </div>
         </section>
+        <?php $this->load->view('components/event/result.php'); ?>
     </main>
     <?php $this->load->view('layouts/footer.php'); ?>
 </body>
