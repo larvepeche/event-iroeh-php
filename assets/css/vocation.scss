@@ -11,15 +11,7 @@
 	}
 
 	.box {
-		display: grid;
-		grid-template-columns: repeat(6, 1fr);
-		grid-row: auto;
-		grid-gap: 10px;
-		gap: 10px;
-
 		.osez {
-			width: 100%;
-			grid-column: 1 / 5;
 			margin: 0;
 			z-index: 2;
 			background: rgb(175, 20, 26);
@@ -55,10 +47,6 @@
 	}
 
 	.promo-container {
-		width: 100%;
-		height: 100%;
-		grid-column: 5/7;
-		padding: 0;
 		color: white;
 
 		.promo {
@@ -134,8 +122,11 @@
 			flex-direction: column;
 
 			.promo-container {
+				padding: 0;
+
 				.promo {
 					flex-direction: row;
+					overflow: hidden;
 
 					.promo-img {
 						flex: 1 1 0;
@@ -143,10 +134,7 @@
 						background-color: #0b0b0b36;
 						color: white;
 						background: #161616 url("../image/promo.png") no-repeat;
-						// background-position-y: bottom;
-						// background-position-x: 80%;
 						background-position: center;
-						// background-size: 700px;
 					}
 
 					.card-body {
@@ -160,11 +148,11 @@
 	@media (max-width:$firstBreakpoint) {
 		.box {
 			.promo-container {
-				display: flex;
-				justify-content: center;
+				// display: flex;
+				// justify-content: center;
 
 				.promo {
-					max-width: 60%;
+					// max-width: 60%;
 
 					.promo-img {
 						display: none;
@@ -174,13 +162,13 @@
 		}
 	}
 
-	@media (max-width:$secondBreakpoint) {
-		.box {
-			.promo-container {
-				.promo {
-					max-width: 100%;
-				}
-			}
-		}
-	}
+	// @media (max-width:$secondBreakpoint) {
+	// 	.box {
+	// 		.promo-container {
+	// 			.promo {
+	// 				max-width: 100%;
+	// 			}
+	// 		}
+	// 	}
+	// }
 }

@@ -52,8 +52,8 @@
     <main>
         <section class="vocation py-5">
             <div class="container-fluid">
-                <div class="row p-3 align-items-center box">
-                    <div data-aos="fade-up" data-aos-delay="150" class="px-5 py-4 osez col-lg-8">
+                <div class="row p-3 box align-items-sm-center align-items-xl-stretch">
+                    <div data-aos="fade-up" data-aos-delay="150" class="px-5 py-4 osez col-xl-8 col-lg-12">
                         <h3 class="">Osez dire oui!</h3>
                         <div class="">
                             <p data-aos="fade-up" data-aos-delay="150">Quelle qu'elle soit votre vocation <br />ou votre
@@ -62,7 +62,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="position-relative promo-container">
+                    <div class="position-relative promo-container col-xl-4 col-lg-10 col-md-9 col-sm-10 mt-3 mt-xl-0 ">
                         <div class="promo card">
                             <div class="promo-img"></div>
                             <div class="card-body px-4">
