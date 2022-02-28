@@ -6,16 +6,14 @@
 #about-fabrice {
     // display: flex;
     // justify-content: center;
-    padding-bottom: 150px;
-    padding-top: 150px;
+    padding-bottom: 5%;
+    padding-top: 5%;
     background-color: #E4E4E4;
-
-    
-
     .black-square, .yellow-square, .blue-square {
         display: none;
     }
-
+    background-image: url("../image/pattern-r-2.png");
+    background-repeat: repeat-y;
     @media screen and (min-width: 768px) {
         .squares {
             position: relative;
@@ -61,6 +59,14 @@
             bottom: -53px;
         }
     }
+    @media(min-width : 768px ) and (max-width:991px){
+        .content-container {
+            margin:0 auto;
+        } 
+        .black-square,.blue-square{
+            display: none;
+        }
+    }
 
     
 
@@ -77,6 +83,7 @@
         background-color: #000;
         width: 300px;
         height: 340px;
+        border-radius : 5px;
     }
 
     p {
