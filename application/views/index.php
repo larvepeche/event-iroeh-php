@@ -53,8 +53,8 @@
     <main>
         <section class="vocation py-5">
             <div class="container-fluid">
-                <div class="row p-3 box align-items-sm-center align-items-xl-stretch">
-                    <div data-aos="fade-up" data-aos-delay="150" class="px-5 py-4 osez col-xl-8 col-lg-12">
+                <div class="row p-3 box align-items-sm-center align-items-xl-stretch justify-content-center">
+                    <div data-aos="fade-up" data-aos-delay="150" class="px-5 py-4 osez col-sm-10 col-md-9 col-lg-10 col-xl-7 ">
                         <h3 class="">Osez dire oui!</h3>
                         <div class="">
                             <p data-aos="fade-up" data-aos-delay="150">Quelle qu'elle soit votre vocation <br />ou votre
@@ -63,17 +63,17 @@
                             </p>
                         </div>
                     </div>
-                    <div class="position-relative promo-container col-xl-4 col-lg-10 col-md-9 col-sm-10 mt-3 mt-xl-0" data-aos="fade-up" data-aos-delay="150">
+                    <div class="position-relative promo-container col-sm-10 col-md-9 col-lg-10 col-xl-4 mt-3 mt-xl-0" data-aos="fade-up" data-aos-delay="150">
                         <div class="promo card">
                             <div class="promo-img"></div>
-                            <div class="card-body px-4">
+                            <div class="card-body px-4 py-5">
                                 <p class="card-title promo-title">Obtenez une remise de <span>20%</span></p>
                                 <p class="promo-date">Inscrivez-vous avant le <span>05 mars 2022</span></p>
                                 <p class="promo-price">
                                     <span>250.000 MGA</span>
                                     <span>200.000 MGA</span>
                                 </p>
-                                <a class="promo-btn btn">s'inscrire</a>
+                                <a href="inscription" class="promo-btn">s'inscrire >>></a>
                             </div>
                         </div>
                     </div>
