@@ -69,6 +69,11 @@ p {
 	transition: all 0.25s;
 	border: 2px solid $color-third;
 	box-sizing: border-box;
+	&.register{
+		&:hover{
+			border:2px solid white !important;
+		}
+	}
 
 	&.fill {
 		box-sizing: border-box;

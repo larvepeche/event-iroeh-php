@@ -17,7 +17,7 @@
                         setlocale(LC_TIME,"fr_FR.UTF-8");
                         echo strftime("%d %B %Y");
                     ?></span>
-                    <span class="lancement">Séminaire | Le 26 & 27 Mars 2022 </span>
+                    <span class="lancement">Bootcamp | Le 25 - 27 Mars 2022 </span>
                     <!-- (10-12) -> 09 Avril -->
                 </div>
                 <a href="inscription" class="register cbtn desktop">Je m'inscris !</a>
