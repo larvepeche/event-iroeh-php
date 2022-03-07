@@ -69,8 +69,7 @@
                                 <p class="card-title promo-title">Obtenez une remise de <span>20%</span></p>
                                 <p class="promo-date">Inscrivez-vous avant le <span>05 mars 2022</span></p>
                                 <p class="promo-price">
-                                    <span>250.000 MGA</span>
-                                    <span><?=$price?> MGA</span>
+                                    <span>Promotion expirée</span>
                                 </p>
                                 <a href="inscription" class="promo-btn">s'inscrire <i class="fa-solid fa-angles-right"></i></a>
                             </div>

@@ -68,7 +68,10 @@
 				.promo-title {
 					font-family: $title;
 					font-size: 35px;
-
+					text-decoration-line: line-through;
+					text-decoration-color:darkgray;
+					text-decoration-thickness: 5px;
+					text-decoration-style:solid;
 					span {
 						color: $color-secondary;
 					}
@@ -76,7 +79,10 @@
 
 				.promo-date {
 					font-size: 1.4rem;
-
+					text-decoration-line: line-through;
+					text-decoration-color: darkgray;
+					text-decoration-thickness: 3px;
+					text-decoration-style:solid;
 					span {
 						font-family: $strongFont;
 						color: $color-secondary;
@@ -84,19 +90,22 @@
 				}
 
 				.promo-price {
+					background: #FCAE2C;
+    				color: black;
+    				width: max-content;
+    				padding: 10px 20px;
+    				margin-top: 13px;
 					& :first-child {
-						text-decoration-line: line-through;
-						text-decoration-color: $color-secondary;
-						text-decoration-thickness: 3px;
-						text-decoration-style: solid;
+						// text-decoration-line: line-through;
+						// text-decoration-color: $color-secondary;
 					}
 
 					& :last-child {
 						font-family: $strongFont;
-						color: $color-secondary;
+						// color: $color-secondary;
 
 						&::before {
-							content: '- ';
+							content: '';
 						}
 					}
 				}

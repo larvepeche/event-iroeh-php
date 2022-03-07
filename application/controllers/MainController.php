@@ -29,7 +29,7 @@ class MainController extends CI_Controller
 		$this->Inscriptiondata['page'] = null;
     }
     private function getPrice(){
-        return "200 000";
+        return "250 000";
     }
     private function getVersion()
     {
