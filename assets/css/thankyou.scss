@@ -24,6 +24,11 @@ body{
     h3{
         font-family:$strongFont;
     }
+    .price{
+        strong{
+            font-size : 30px;
+        }
+    }
     .text-blue{
         color:$color-third;
         text-transform: capitalize;
