@@ -9,6 +9,7 @@ class EventMembers extends CI_Model
     private $age;
     private $phone;
     private $gender;
+    private $evState;
     private $tableName = "event_members";
 
     /**
@@ -111,11 +112,13 @@ class EventMembers extends CI_Model
         return $this;
     }
 
-    public function getId(){
+    public function getId()
+    {
         return $this->ID;
     }
-    
-    public function setId($ID){
+
+    public function setId($ID)
+    {
         $this->ID = $ID;
         return $this;
     }
@@ -140,11 +143,32 @@ class EventMembers extends CI_Model
         return $this;
     }
 
+    /**
+     * Get the value of evState
+     */
+    public function getEvState()
+    {
+        return $this->evState;
+    }
+
+    /**
+     * Set the value of evState
+     *
+     * @return  self
+     */
+    public function setEvState($evState)
+    {
+        $this->evState = $evState;
+
+        return $this;
+    }
+
 
 
     public function __construct()
     {
         parent::__construct();
+        $this->evState = 1;
     }
 
     public function set($lastName, $firstName, $email, $age, $phone, $gender)

@@ -11,3 +11,5 @@ reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
 insert into event_members values (DEFAULT,'Mariano','Randriamanjaka','mariano@gmail.com','22','H','0333514511',DEFAULT);
+
+ALTER TABLE event_members ADD COLUMN ev_state INT DEFAULT 1;
