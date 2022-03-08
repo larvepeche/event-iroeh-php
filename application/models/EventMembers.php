@@ -10,6 +10,7 @@ class EventMembers extends CI_Model
     private $phone;
     private $gender;
     private $evState;
+    private $payment;
     private $tableName = "event_members";
 
     /**
@@ -162,6 +163,25 @@ class EventMembers extends CI_Model
 
         return $this;
     }
+    /**
+     * Get the value of payment
+     */
+    public function getPayment()
+    {
+        return $this->payment;
+    }
+
+    /**
+     * Set the value of payment
+     *
+     * @return  self
+     */
+    public function setPayment($payment)
+    {
+        $this->payment = $payment;
+
+        return $this;
+    }
 
 
 
@@ -169,6 +189,7 @@ class EventMembers extends CI_Model
     {
         parent::__construct();
         $this->evState = 1;
+        $this->payment = 0;
     }
 
     public function set($lastName, $firstName, $email, $age, $phone, $gender)
