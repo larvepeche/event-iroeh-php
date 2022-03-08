@@ -1,9 +1,14 @@
+@import "variables";
+
 @font-face {
     font-family: "bebas";
     src: url("../fonts/bebas/BebasNeue-Regular.ttf");
   }
 
 #about-fabrice {
+    p{
+        text-align: justify !important;
+    }
     // display: flex;
     // justify-content: center;
     padding-bottom: 5%;
@@ -98,5 +103,22 @@
         height: 3px;
         width: 100px;
         background-color: #007A9C;
+    }
+    @media(max-width : $firstBreakpoint){
+        .squares{
+            display: flex;
+            justify-content: center;
+        }
+        .name{
+            text-align: center;
+        }
+        .separator{
+            display: none;
+        }
+        .image-container{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
     }
 }

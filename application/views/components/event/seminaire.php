@@ -2,12 +2,12 @@
             <div class="container-fluid">
                 <div class="row p5">
                     <div class="col-lg-5 col-md-6 col-sm-12 text">
-                        <h3>Durant le <span class="orange">séminaire</span></h3>
+                        <h3>Inclus dans le <span class="orange">BOOTCAMP</span></h3>
                         <p data-aos="fade-up" data-aos-delay="150">
-                            Le séminaire aura lieu le 26 et 27 mars 2022 <br/>au God's love Ambohitrimanjaka.
+                        Le bootcamp aura lieu du 25 (debut soirée) jusqu'au 27 Mars 2022 au niveau de <strong>God's Love Amhohitrimanjaka.</strong>
                         </p>
                         <p data-aos="fade-up" data-aos-delay="150">
-                            Tarif : <strong>250 000 MGA</strong> tout compris.
+                            Tarif : <strong>250 000 MGA</strong> tout compris *.
                         </p>
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-12">
