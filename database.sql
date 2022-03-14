@@ -14,3 +14,21 @@ insert into event_members values (DEFAULT,'Mariano','Randriamanjaka','mariano@gm
 
 ALTER TABLE event_members ADD COLUMN ev_state INT DEFAULT 1;
 ALTER TABLE event_members ADD COLUMN payment INT DEFAULT 0;
+
+
+CREATE VIEW membres as SELECT id,firstname,lastname,email,age,gender,phone,reg_date,
+CASE
+    WHEN payment > 0 THEN "payé"
+    ELSE "non payé"
+END as payment
+FROM `event_members` WHERE ev_state = 1
+
+CREATE VIEW membres_invalides as SELECT id,firstname,lastname,email,age,gender,phone,reg_date,
+CASE
+    WHEN payment > 0 THEN "payé"
+    ELSE "non payé"
+END as payment
+FROM `event_members` WHERE ev_state = 0
+
+
+CREATE VIEW membre_paiement_valide as select * from membres where payment = "payé"
