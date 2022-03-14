@@ -66,12 +66,16 @@
                         <div class="promo card">
                             <div class="promo-img"></div>
                             <div class="card-body px-4 py-5" data-aos="fade-up" data-aos-delay="200">
-                                <p class="card-title promo-title">Obtenez une remise de <span>20%</span></p>
+                                <p>Accedez au bootcamp<br/> pour seulement <strong><span class="price animated">250 000 MGA</span></strong><br/>tout compris !</p>
+                                <div class="cbtn-container">
+                                    <a href="#seminaire"><strong>En savoir plus</strong></a>
+                                </div>
+                                <!-- <p class="card-title promo-title">Obtenez une remise de <span>20%</span></p>
                                 <p class="promo-date">Inscrivez-vous avant le <span>05 mars 2022</span></p>
                                 <p class="promo-price">
                                     <span>Promotion expirée</span>
-                                </p>
-                                <a href="inscription" class="promo-btn">s'inscrire <i class="fa-solid fa-angles-right"></i></a>
+                                </p> -->
+                                <!-- <a href="inscription" class="promo-btn">s'inscrire <i class="fa-solid fa-angles-right"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -127,7 +131,7 @@
                         <div data-aos="fade-up" data-aos-delay="250" class="name">Fabrice Rabeson</div>
                         <p data-aos="fade-up" data-aos-delay="250">Avec un Master en Comptabilité Finances issu de l'ISCAM et un parcours en entrepreneuriat à son actif, notre cher Tsihoarana Fabrice Rabeson a pris une toute autre direction pour sa carrière professionnelle en se penchant sur le développement personnel et le leadership.</p>
                         <p data-aos="fade-up" data-aos-delay="250">
-                            <strong>Certifié par la John Maxwell TEAM</strong>, Fabrice est convaincu que se centrer sur l'Humain est impératif pour que celui-ci développe au mieux ses compétences techniques et ainsi l'entité où elle se trouve.
+                            <strong>Certifié par la Maxwell Leadership Team</strong>, Fabrice est convaincu que se centrer sur l'Humain est impératif pour que celui-ci développe au mieux ses compétences techniques et ainsi l'entité où elle se trouve.
                             Un des messages qui a marqué notre CEO <strong>"Soyez meilleur dans ce que vous faîtes et excellent dans ce que vous êtes"</strong>Et tout cela pour une <strong>VISION</strong>, c'est de permettre à chaque individu de construire une bonne fondation pour être meilleur dans ce qu’il fait et être <strong>EXCELLENT</strong> dans ce qu’il <strong>EST</strong>.
                         </p>
                         </p>
