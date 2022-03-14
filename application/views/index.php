@@ -66,7 +66,7 @@
                         <div class="promo card">
                             <div class="promo-img"></div>
                             <div class="card-body px-4 py-5" data-aos="fade-up" data-aos-delay="200">
-                                <p>Accedez au bootcamp<br/> pour seulement <strong><span class="price animated">250 000 MGA</span></strong><br/>tout compris !</p>
+                                <p>Accédez au bootcamp<br/> pour seulement <strong><span class="price animated">250 000 MGA</span></strong><br/>tout compris !</p>
                                 <div class="cbtn-container">
                                     <a href="#seminaire"><strong>En savoir plus</strong></a>
                                 </div>
