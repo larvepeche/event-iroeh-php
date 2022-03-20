@@ -154,10 +154,10 @@
 </script>
 <script src="assets/js/bootstrap.bundle.js"></script>
 <script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/common.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
-<script src="assets/js/common.js"></script>
 
 </html>
