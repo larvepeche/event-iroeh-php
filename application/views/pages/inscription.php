@@ -72,8 +72,8 @@
     <script src="assets/js/common.js"></script>
     <script>
         $(document).ready(function () {
-            $("#disclaimer").modal('show');
             setTimeout(function () {
+                $("#disclaimer").modal('show');
             }, 1000);
         });
         $(function () {
